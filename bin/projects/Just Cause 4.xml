@@ -1,0 +1,27 @@
+<project>
+	<name>Just Cause 4</name>
+	<dependencies>
+		<dependency>Shared</dependency>
+	</dependencies>
+	<list_location>Just Cause 4</list_location>
+	<install_locations>
+		<install_location>
+			<action type="registryview" view="Registry64" hive="LocalMachine" subkey="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 517630" value="InstallLocation" />
+		</install_location>
+		<install_location>
+			<action type="registryview" view="Registry32" hive="LocalMachine" subkey="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 517630" value="InstallLocation" />
+		</install_location>
+		<install_location>
+			<action type="registryview" view="Registry64" hive="LocalMachine" subkey="SOFTWARE\Valve\Steam" value="InstallPath" />
+			<action type="combine">steamapps</action>
+			<action type="combine">common</action>
+			<action type="combine">Just Cause 4</action>
+		</install_location>
+		<install_location>
+			<action type="registryview" view="Registry32" hive="LocalMachine" subkey="SOFTWARE\Valve\Steam" value="InstallPath" />
+			<action type="combine">steamapps</action>
+			<action type="combine">common</action>
+			<action type="combine">Just Cause 4</action>
+		</install_location>
+	</install_locations>
+</project>
