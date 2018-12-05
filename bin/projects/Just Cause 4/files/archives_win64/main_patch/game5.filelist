@@ -1,4 +1,4 @@
-; 1454/1458 (99%)
+; 1455/1458 (99%)
 terrain/jc3/patches/patch_09_55_25.streampatch
 terrain/jc3/patches/patch_09_55_26.streampatch
 terrain/jc3/patches/patch_09_55_27.streampatch
@@ -1453,3 +1453,4 @@ terrain/jc3/patches/patch_12_07_04.streampatch
 terrain/jc3/patches/patch_12_07_05.streampatch
 terrain/jc3/patches/patch_12_07_06.streampatch
 terrain/jc3/patches/patch_12_07_07.streampatch
+videos/scene_intro_blizzard.bikc

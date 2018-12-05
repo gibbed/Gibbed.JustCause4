@@ -1,4 +1,10 @@
-; 4/1028 (0%)
+; 10/1028 (0%)
+locations/node/node_factory_10/node_factory_10_main_new.nl
+locations/node/node_factory_10/node_factory_10_main_new.nl.mdic
+locations/node/node_factory_10/node_factory_10_main_new.obc
+locations/node/node_factory_10/node_factory_10_main_new.pfx_breakablecompoundc
+locations/node/node_factory_10/node_factory_10_main_new.pfx_staticcompoundc
+locations/node/node_factory_10/node_factory_10_main_new.resourcebundle
 locations/node/node_industrial_06/node_industrial_06_roads.bl
 locations/node/node_industrial_06/node_industrial_06_roads.blo
 locations/node/node_industrial_07/node_industrial_07_roads.bl

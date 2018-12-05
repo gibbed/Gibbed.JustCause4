@@ -1,4 +1,4 @@
-; 18/1626 (1%)
+; 32/1626 (1%)
 locations/node/secondary_town_11/secondary_town_11_roads.bl
 locations/node/secondary_town_11/secondary_town_11_roads.blo
 locations/node/secondary_town_12/secondary_town_12_road.bl
@@ -11,9 +11,23 @@ locations/quests/global_questbintro_runway.bl
 locations/quests/global_questbintro_runway.blo
 locations/quests/global_questbintro_water.bl
 locations/quests/global_questbintro_water.blo
+locations/quests/questa18_powerstation.fl
+locations/quests/questa18_powerstation.fl.mdic
 locations/quests/questbfinale_water.bl
 locations/quests/questbfinale_water.blo
 locations/quests/questc08_trail.bl
 locations/quests/questc08_trail.blo
+locations/quests/questc10_station01.fl
+locations/quests/questc10_station01.fl.mdic
+locations/quests/questcintro_junk.blo
+locations/quests/questcintro_junk.nl
+locations/quests/questcintro_junk.nl.mdic
+locations/quests/questcintro_junk.pfx_breakablecompoundc
+locations/quests/questcintro_junk.resourcebundle
+locations/quests/questcintro_outpost_02.fl
+locations/quests/questcintro_outpost_02.fl.mdic
+locations/quests/questcintro_start.blo
+locations/quests/questcintro_start.blo_adf
+locations/quests/questcintro_start.nl
 locations/quests/questcintro_start_roads.bl
 locations/quests/questcintro_start_roads.blo

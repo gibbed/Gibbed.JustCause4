@@ -1,4 +1,4 @@
-; 67/95 (70%)
+; 73/95 (76%)
 ai/aisystem.aisystunec
 ai/worldsim.aisystunec
 asynchronous/asyncbrags.asynccc
@@ -36,6 +36,9 @@ textures/system/jet_cloak_transition.ddsc
 textures/ui/load/24.ddsc
 textures/ui/load/25.ddsc
 textures/ui/load/26.ddsc
+ui/art.backer.popup.retract.ddsc
+ui/art.backer.popup.speed.ddsc
+ui/art.location.type.natural.ddsc
 ui/art.playstation.ps4logo.ddsc
 ui/available_content.gfx
 ui/comm_link.gfx
@@ -59,6 +62,8 @@ ui/overlay.gfx
 ui/poi.art.javi.large.ddsc
 ui/poi.art.user.ddsc
 ui/popups.gfx
+ui/popupsbacker.gfx
+ui/popupsmisc.gfx
 ui/root.gfx
 ui/shared_lib.gfx
 ui/title.gfx
@@ -66,3 +71,4 @@ ui/title_i28.ddsc
 ui/title_i3e.ddsc
 ui/title_i46.ddsc
 ui/title_if.ddsc
+ui/tutorial_box.gfx

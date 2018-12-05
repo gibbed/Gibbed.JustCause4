@@ -1,2 +1,23 @@
-; 1/4260 (0%)
+; 22/4260 (0%)
+models/vehicles/01_land/v000_car_atv/textures/v000_car_atv_body_dif.atx2
+models/vehicles/01_land/v001_car_forklift/textures/v001_car_forklift_body_dif.atx2
+models/vehicles/01_land/v003_car_crane/textures/v003_car_crane_body_01_dif.atx2
+models/vehicles/01_land/v003_car_crane/textures/v003_car_crane_body_02_dif.atx2
+models/vehicles/01_land/v006_car_conveyorcrane/textures/v006_car_conveyorcrane_body_dif.atx2
+models/vehicles/01_land/v011_car_oldtwodoorhatch/textures/v011_car_old_two_door_hatch_body_dif.atx2
+models/vehicles/01_land/v014_car_offroadtruck/textures/rebel/v014_car_offroadtruck_body_rebel_dif.atx2
+models/vehicles/01_land/v014_car_offroadtruck/textures/v014_car_offroadtruck_body_dif.atx2
+models/vehicles/01_land/v020_car_moderngrandtourer/textures/v020_car_moderngrandtourer_body_dif.atx2
+models/vehicles/01_land/v021_car_sportsmuscle/textures/v021_car_sportsmuscle_body_dif.atx2
+models/vehicles/01_land/v024_car_ecosuper/textures/v024_car_ecosuper_body_dif.atx2
+models/vehicles/01_land/v030_car_oldmini/texture/v030_car_oldmini_body_dif.atx2
+models/vehicles/01_land/v034_car_oldtruck/textures/v034_car_oldtruck_body_dif.atx2
+models/vehicles/01_land/v036_car_modernpickup/textures/v036_car_modernpickup_body_dif.atx2
+models/vehicles/01_land/v040_car_oldcompact/textures/v040_car_oldcompactsedan_body_dif.atx2
+models/vehicles/01_land/v046_car_racingbuggy/textures/v046_car_racingbuggy_body_dif.atx2
+models/vehicles/01_land/v306_bike_modernroad/textures/v306_bike_modernroad_body_dif.atx2
+models/vehicles/01_land/v307_bike_oldmoped/textures/v307_bike_oldmoped_body_dif.atx2
+models/vehicles/01_land/v308_bike_trials/textures/v308_bike_trials_body_dif.atx2
+models/vehicles/01_land/v904_trailer_smallmobileweapon/textures/v904_trailer_smallmobileweapon_body_dif.atx2
+models/vehicles/02_air/v205_helicopter_utility/textures/v205_helicopter_utility_body_dif.atx2
 models/vehicles/02_air/v206_helicopter_bubblescout/textures/v206_helicopter_bubblescout_body_dif.atx2

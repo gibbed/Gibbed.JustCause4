@@ -1,4 +1,4 @@
-; 12/987 (1%)
+; 20/987 (2%)
 locations/global/grey_node_flying_fortress/grey_node_flying_fortress_main.bl
 locations/global/grey_node_flying_fortress/grey_node_flying_fortress_main.blo
 locations/global/lightprobes.bl
@@ -9,5 +9,13 @@ locations/global/tutorials.bl
 locations/global/tutorials.blo
 locations/global/waterfalls.bl
 locations/global/waterfalls.blo
+locations/highest_location_achievement.blo
+locations/highest_location_achievement.nl
+locations/hinge_nodes/rainforest/hinge_node_09.fl
+locations/hinge_nodes/rainforest/hinge_node_09.fl.mdic
+locations/node/backer_22/backer_son_doong_cave.fl
+locations/node/backer_22/backer_son_doong_cave.fl.mdic
+locations/node/backer_25/backer_25_encounters.blo
+locations/node/backer_25/backer_25_encounters.nl
 locations/node/node_civilian_01/node_civilian_01_roads.bl
 locations/node/node_civilian_01/node_civilian_01_roads.blo

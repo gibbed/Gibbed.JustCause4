@@ -1,4 +1,4 @@
-; 14/904 (1%)
+; 18/904 (1%)
 locations/node/node_civilian_04/node_civillian_04_water.bl
 locations/node/node_civilian_04/node_civillian_04_water.blo
 locations/node/node_factory_02/node_factory_02_roads.bl
@@ -13,3 +13,7 @@ locations/node/node_factory_08/node_factory_08_roads.bl
 locations/node/node_factory_08/node_factory_08_roads.blo
 locations/node/node_factory_09/node_factory_09_roads.bl
 locations/node/node_factory_09/node_factory_09_roads.blo
+locations/node/node_factory_10/node_factory_10_main_new.blo
+locations/node/node_factory_10/node_factory_10_main_new.blo_adf
+locations/node/node_factory_10/node_factory_10_main_new.fl
+locations/node/node_factory_10/node_factory_10_main_new.fl.mdic

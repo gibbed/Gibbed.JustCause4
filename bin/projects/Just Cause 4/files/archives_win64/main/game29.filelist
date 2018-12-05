@@ -1,5 +1,23 @@
-; 50/213 (23%)
+; 73/213 (34%)
 models/weapons/wpn_020_shotgun/textures/wpn_020_shotgun_nrm.atx1
+models/weapons/wpn_021_shotgun/textures/wpn_021_shotgun_alpha_mpm.atx1
+models/weapons/wpn_021_shotgun/textures/wpn_021_shotgun_nrm.atx1
+models/weapons/wpn_031_sniper_rifle/textures/wpn_031_sniper_rifle_alpha_mpm.atx1
+models/weapons/wpn_031_sniper_rifle/textures/wpn_031_sniper_rifle_nrm.atx1
+models/weapons/wpn_040_combat_rifle/textures/wpn_040_combat_rifle_alpha_mpm.atx1
+models/weapons/wpn_040_combat_rifle/textures/wpn_040_combat_rifle_nrm.atx1
+models/weapons/wpn_050_smg/textures/wpn_050_smg_alpha_mpm.atx1
+models/weapons/wpn_050_smg/textures/wpn_050_smg_nrm.atx1
+models/weapons/wpn_061_rpg/textures/wpn_061_rpg_alpha_mpm.atx1
+models/weapons/wpn_061_rpg/textures/wpn_061_rpg_nrm.atx1
+models/weapons/wpn_070_glauncher/textures/wpn_070_glauncher_alpha_mpm.atx1
+models/weapons/wpn_070_glauncher/textures/wpn_070_glauncher_dif.atx1
+models/weapons/wpn_070_glauncher/textures/wpn_070_glauncher_nrm.atx1
+models/weapons/wpn_203_aa_gun/textures/wpn_203_aa_gun_base_nrm.atx1
+models/weapons/wpn_203_aa_gun/textures/wpn_203_aa_gun_turret_dif.atx1
+models/weapons/wpn_203_aa_gun/textures/wpn_203_aa_gun_turret_emissive.atx1
+models/weapons/wpn_203_aa_gun/textures/wpn_203_aa_gun_turret_mpm.atx1
+models/weapons/wpn_203_aa_gun/textures/wpn_203_aa_gun_turret_nrm.atx1
 packages/main/expentity_info_collection.expentity_infoc
 packages/main/generated_global_resources.bl
 packages/main/landmarks.bl
@@ -38,11 +56,16 @@ sound/fmod_banks/global_veh_land.fmod_bankc
 sound/fmod_banks/global_veh_land_bikes.fmod_bankc
 sound/fmod_banks/global_veh_sea.fmod_bankc
 sound/fmod_banks/just_kidding.fmod_bankc
+sound/fmod_banks/node_amb_central_military_jet_factory.fmod_bankc
 sound/fmod_banks/node_amb_grasslands_mine.fmod_bankc
+sound/fmod_banks/node_amb_radar_base.fmod_bankc
+sound/fmod_banks/node_amb_slum_bridge.fmod_bankc
+sound/fmod_banks/node_amb_wind_research_lab.fmod_bankc
 sound/fmod_banks/node_ambience.fmod_bankc
 sound/fmod_banks/obj_char_grapple_hook.fmod_bankc
 sound/fmod_banks/obj_fuel_tank.fmod_bankc
 sound/fmod_banks/obj_wind_turbines.fmod_bankc
+sound/fmod_banks/phy_destruction_science_dome.fmod_bankc
 sound/fmod_banks/phy_electric_explosions.fmod_bankc
 sound/fmod_banks/phy_global_effects.fmod_bankc
 sound/fmod_banks/phy_javi_statues.fmod_bankc

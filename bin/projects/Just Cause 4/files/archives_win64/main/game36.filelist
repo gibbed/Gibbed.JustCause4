@@ -1,4 +1,4 @@
-; 2671/3297 (81%)
+; 2673/3297 (81%)
 terrain/jc3/patches/patch_09_48_43.streampatch
 terrain/jc3/patches/patch_09_48_44.streampatch
 terrain/jc3/patches/patch_09_48_45.streampatch
@@ -2327,6 +2327,8 @@ terrain/jc3/patches/patch_12_07_07.streampatch
 textures/font/arial_18.abc
 textures/font/terminal_9.abc
 textures/font/terminal_9_dif.abc
+textures/localcubemaps/locations_campaign_slum_bridge_rf_campaign_slumbridge/a0146e919b504d64a722ab960c8c637e0_a.ddsc
+textures/localcubemaps/locations_campaign_slum_bridge_rf_campaign_slumbridge/a0146e919b504d64a722ab960c8c637e0_n.ddsc
 textures/reference/ref_image_0.ddsc
 textures/reference/ref_image_1.ddsc
 textures/reference/ref_image_2.ddsc
