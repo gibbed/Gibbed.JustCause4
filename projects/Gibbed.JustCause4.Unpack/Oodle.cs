@@ -107,7 +107,7 @@ namespace Gibbed.JustCause4.Unpack
                 inputSize,
                 outputBuffer,
                 outputSize,
-                0,
+                1,
                 0,
                 0,
                 IntPtr.Zero,
@@ -116,7 +116,7 @@ namespace Gibbed.JustCause4.Unpack
                 0,
                 0,
                 0,
-                0);
+                3);
         }
     }
 }

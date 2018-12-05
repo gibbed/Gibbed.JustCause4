@@ -112,7 +112,10 @@ namespace Gibbed.JustCause4.FileFormats
                 entryInfo.Offset = input.ReadValueU32(endian);
                 entryInfo.CompressedSize = input.ReadValueU32(endian);
                 entryInfo.UncompressedSize = input.ReadValueU32(endian);
-                entryInfo.Unknown = input.ReadValueU32(endian);
+                entryInfo.UnknownIndex = input.ReadValueU8();
+                entryInfo.Unknown11 = input.ReadValueU8();
+                entryInfo.CompressionType = (CompressionType)input.ReadValueU8();
+                entryInfo.Unknown13 = input.ReadValueU8();
                 entries.Add(new EntryInfo(entryInfo));
             }
 
@@ -130,7 +133,10 @@ namespace Gibbed.JustCause4.FileFormats
             public uint Offset;
             public uint CompressedSize;
             public uint UncompressedSize;
-            public uint Unknown;
+            public byte UnknownIndex;
+            public byte Unknown11;
+            public CompressionType CompressionType;
+            public byte Unknown13;
         }
 
         public struct EntryInfo
@@ -139,7 +145,10 @@ namespace Gibbed.JustCause4.FileFormats
             public readonly uint Offset;
             public readonly uint CompressedSize;
             public readonly uint UncompressedSize;
-            public readonly uint Unknown;
+            public readonly byte UnknownIndex;
+            public readonly byte Unknown11;
+            public readonly CompressionType CompressionType;
+            public readonly byte Unknown13;
 
             internal EntryInfo(RawEntryInfo raw)
             {
@@ -147,16 +156,44 @@ namespace Gibbed.JustCause4.FileFormats
                 this.Offset = raw.Offset;
                 this.CompressedSize = raw.CompressedSize;
                 this.UncompressedSize = raw.UncompressedSize;
-                this.Unknown = raw.Unknown;
+                this.UnknownIndex = raw.UnknownIndex;
+                this.Unknown11 = raw.Unknown11;
+                this.CompressionType = raw.CompressionType;
+                this.Unknown13 = raw.Unknown13;
             }
 
-            public EntryInfo(uint nameHash, uint offset, uint compressedSize, uint uncompressedSize, uint unknown)
+            public EntryInfo(
+                uint nameHash,
+                uint offset,
+                uint compressedSize,
+                uint uncompressedSize,
+                byte unknown10,
+                byte unknown11,
+                CompressionType compressionType,
+                byte unknown13)
             {
                 this.NameHash = nameHash;
                 this.Offset = offset;
                 this.CompressedSize = compressedSize;
                 this.UncompressedSize = uncompressedSize;
-                this.Unknown = unknown;
+                this.UnknownIndex = unknown10;
+                this.Unknown11 = unknown11;
+                this.CompressionType = compressionType;
+                this.Unknown13 = unknown13;
+            }
+
+            public override string ToString()
+            {
+                return string.Format(
+                    "{0:X8} @{1:X} {2:X}, {3:X} [{4:X} {5:X} {6} {7:X}]",
+                    this.NameHash,
+                    this.Offset,
+                    this.CompressedSize,
+                    this.UncompressedSize,
+                    this.UnknownIndex,
+                    this.Unknown11,
+                    this.CompressionType,
+                    this.Unknown13);
             }
         }
     }

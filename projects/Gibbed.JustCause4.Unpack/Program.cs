@@ -173,26 +173,42 @@ namespace Gibbed.JustCause4.Unpack
                     input.Position = entry.Offset;
                     using (var output = File.Create(entryPath))
                     {
-                        if (entry.CompressedSize != entry.UncompressedSize)
+                        switch (entry.CompressionType)
                         {
-                            var compressedBytes = input.ReadBytes((int)entry.CompressedSize);
-                            var uncompressedBytes = new byte[entry.UncompressedSize];
-                            var result = Oodle.Decompress
-                                (compressedBytes,
-                                 0,
-                                 compressedBytes.Length,
-                                 uncompressedBytes,
-                                 0,
-                                 uncompressedBytes.Length);
-                            if (result != uncompressedBytes.Length)
+                            case CompressionType.None:
                             {
-                                throw new InvalidOperationException();
+                                if (entry.CompressedSize != entry.UncompressedSize)
+                                {
+                                    throw new InvalidOperationException();
+                                }
+
+                                output.WriteFromStream(input, entry.CompressedSize);
+                                break;
                             }
-                            output.WriteBytes(uncompressedBytes);
-                        }
-                        else
-                        {
-                            output.WriteFromStream(input, entry.CompressedSize);
+
+                            case CompressionType.Oodle:
+                            {
+                                var compressedBytes = input.ReadBytes((int)entry.CompressedSize);
+                                var uncompressedBytes = new byte[entry.UncompressedSize];
+                                var result = Oodle.Decompress
+                                    (compressedBytes,
+                                     0,
+                                     compressedBytes.Length,
+                                     uncompressedBytes,
+                                     0,
+                                     uncompressedBytes.Length);
+                                if (result != uncompressedBytes.Length)
+                                {
+                                    throw new InvalidOperationException();
+                                }
+                                output.WriteBytes(uncompressedBytes);
+                                break;
+                            }
+
+                            default:
+                            {
+                                throw new NotSupportedException();
+                            }
                         }
                     }
                 }
