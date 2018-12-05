@@ -1,4 +1,4 @@
-; 424/1938 (21%)
+; 429/1938 (22%)
 models/environments/locale_illapa/textures/ill_science_floor_a_clean_dif.atx1
 models/environments/locale_illapa/textures/ill_science_floor_a_clean_mpm.atx1
 models/environments/locale_illapa/textures/ill_science_floor_a_clean_nrm.atx1
@@ -128,6 +128,7 @@ models/environments/locale_ruin/structures/ruin_a_bui_32x7_dst_01.hrmeshc
 models/environments/locale_ruin/textures/javi_ball_statue_large_a_01_dif.atx1
 models/environments/locale_ruin/textures/javi_ball_statue_large_a_01_mpm.atx1
 models/environments/locale_ruin/textures/javi_ball_statue_large_a_01_nrm.atx1
+models/environments/locale_ruin/textures/stone_capitel_01_a_nrm.atx1
 models/environments/locale_ruin/textures/stone_wall_decorative_01_a_clean_nrm.atx1
 models/environments/locale_ruin/textures/stone_wall_decorative_01_a_dirty_nrm.atx1
 models/environments/locale_science/sci_bui_a/sci_bui_a_small_01.hrmeshc
@@ -234,6 +235,9 @@ models/environments/locale_village/vil_prop_a/vil_prop_a_plaftorm_10x15m_01.hrme
 models/environments/shared/textures/aluminium_airduct_01_a_clean_nrm.atx1
 models/environments/shared/textures/aluminium_airduct_01_b_clean_nrm.atx1
 models/environments/shared/textures/aluminium_base_01_a_clean_nrm.atx1
+models/environments/shared/textures/aoc/rebel_metal_corrugated_04_a_dif.atx1
+models/environments/shared/textures/aoc/rebel_metal_corrugated_04_a_mpm.atx1
+models/environments/shared/textures/aoc/rebel_metal_corrugated_04_a_nrm.atx1
 models/environments/shared/textures/asphalt_floor_01_a_clean_nrm.atx1
 models/environments/shared/textures/asphalt_floor_01_a_dmg_nrm.atx1
 models/environments/shared/textures/asphalt_floor_02_a_clean_dif.atx1
@@ -334,6 +338,7 @@ models/environments/shared/textures/decals/dirt/decal_mud_tread_a_01_mpm.atx1
 models/environments/shared/textures/decals/dirt/decal_mud_tread_a_01_nrm.atx1
 models/environments/shared/textures/decals/dirt/generic_dirt_a_01_dif.atx1
 models/environments/shared/textures/decals/dirt/generic_dirt_a_01_nrm.atx1
+models/environments/shared/textures/decals/oils/iradecent_oil_a_01_alpha_dif.atx1
 models/environments/shared/textures/decals/paint_mask.atx1
 models/environments/shared/textures/decals/paint_stripe_set/paint_stripe_set_a_01_alpha_dif.atx1
 models/environments/shared/textures/decals/paint_stripe_set/paint_stripe_set_a_01_nrm.atx1

@@ -1,11 +1,14 @@
-; 1094/9117 (11%)
+; 1107/9117 (12%)
 sound/fmod_banks/veh_gen_chassi_and_suspension.fmod_bankc
 sound/fmod_banks/veh_v000_car_atv.fmod_bankc
 sound/fmod_banks/veh_v001_car_forklift.fmod_bankc
+sound/fmod_banks/veh_v002_car_vintagesuv_civ.fmod_bankc
+sound/fmod_banks/veh_v002_car_vintagesuv_rebel.fmod_bankc
 sound/fmod_banks/veh_v003_car_crane.fmod_bankc
 sound/fmod_banks/veh_v004_car_articulatedtruck.fmod_bankc
 sound/fmod_banks/veh_v005_car_wheelloader.fmod_bankc
 sound/fmod_banks/veh_v006_car_conveyercrane.fmod_bankc
+sound/fmod_banks/veh_v008_car_taxitrike.fmod_bankc
 sound/fmod_banks/veh_v009_car_armoredtruck.fmod_bankc
 sound/fmod_banks/veh_v011_car_oldtwodoorhatch.fmod_bankc
 sound/fmod_banks/veh_v013_car_armored_transport.fmod_bankc
@@ -16,6 +19,7 @@ sound/fmod_banks/veh_v017_vintage_musclecar.fmod_bankc
 sound/fmod_banks/veh_v020_car_moderngrandtourer.fmod_bankc
 sound/fmod_banks/veh_v021_sportsmuscle.fmod_bankc
 sound/fmod_banks/veh_v024_car_ecosuper.fmod_bankc
+sound/fmod_banks/veh_v025_car_vintagesuper.fmod_bankc
 sound/fmod_banks/veh_v029_car_smallmodernsedan.fmod_bankc
 sound/fmod_banks/veh_v030_car_oldmini.fmod_bankc
 sound/fmod_banks/veh_v031_racinghothatch.fmod_bankc
@@ -23,6 +27,7 @@ sound/fmod_banks/veh_v032_car_luxurysportsedan.fmod_bankc
 sound/fmod_banks/veh_v034_car_oldtruck.fmod_bankc
 sound/fmod_banks/veh_v035_car_modernvan.fmod_bankc
 sound/fmod_banks/veh_v036_car_modernpickup.fmod_bankc
+sound/fmod_banks/veh_v039_car_oldcampervan.fmod_bankc
 sound/fmod_banks/veh_v040_car_oldcompact.fmod_bankc
 sound/fmod_banks/veh_v042_offroadracingsedan.fmod_bankc
 sound/fmod_banks/veh_v045_car_minetruck.fmod_bankc
@@ -46,6 +51,7 @@ sound/fmod_banks/veh_v306_lav_bike_modernroad.fmod_bankc
 sound/fmod_banks/veh_v307_bike_oldmoped.fmod_bankc
 sound/fmod_banks/veh_v308_bike_trails.fmod_bankc
 sound/fmod_banks/veh_v400_plane_fighterjet.fmod_bankc
+sound/fmod_banks/veh_v402_plane_fighterbomber.fmod_bankc
 sound/fmod_banks/veh_v406_plane_smallprop.fmod_bankc
 sound/fmod_banks/veh_v407_plane_mediumprop.fmod_bankc
 sound/fmod_banks/veh_v801_treaded_medium_tank.fmod_bankc
@@ -198,6 +204,7 @@ terrain/jc3/navheightfield/globalhires/41_29.nhf
 terrain/jc3/navheightfield/globalhires/41_30.nhf
 terrain/jc3/navheightfield/globalhires/41_31.nhf
 terrain/jc3/navheightfield/globalhires/41_32.nhf
+terrain/jc3/navheightfield/globalhires/41_33.nhf
 terrain/jc3/navheightfield/globalhires/42_26.nhf
 terrain/jc3/navheightfield/globalhires/42_27.nhf
 terrain/jc3/navheightfield/globalhires/42_28.nhf
@@ -205,6 +212,7 @@ terrain/jc3/navheightfield/globalhires/42_29.nhf
 terrain/jc3/navheightfield/globalhires/42_30.nhf
 terrain/jc3/navheightfield/globalhires/42_31.nhf
 terrain/jc3/navheightfield/globalhires/42_32.nhf
+terrain/jc3/navheightfield/globalhires/42_33.nhf
 terrain/jc3/navheightfield/globalhires/43_26.nhf
 terrain/jc3/navheightfield/globalhires/43_27.nhf
 terrain/jc3/navheightfield/globalhires/43_28.nhf
@@ -212,6 +220,7 @@ terrain/jc3/navheightfield/globalhires/43_29.nhf
 terrain/jc3/navheightfield/globalhires/43_30.nhf
 terrain/jc3/navheightfield/globalhires/43_31.nhf
 terrain/jc3/navheightfield/globalhires/43_32.nhf
+terrain/jc3/navheightfield/globalhires/43_33.nhf
 terrain/jc3/occluder/patch_09_28_31.streampatch
 terrain/jc3/occluder/patch_09_28_32.streampatch
 terrain/jc3/occluder/patch_09_28_33.streampatch
@@ -231,6 +240,7 @@ terrain/jc3/occluder/patch_09_31_32.streampatch
 terrain/jc3/occluder/patch_09_31_33.streampatch
 terrain/jc3/occluder/patch_09_32_31.streampatch
 terrain/jc3/occluder/patch_09_32_32.streampatch
+terrain/jc3/occluder/patch_09_33_30.streampatch
 terrain/jc3/occluder/patch_09_37_28.streampatch
 terrain/jc3/occluder/patch_09_37_29.streampatch
 terrain/jc3/occluder/patch_09_37_30.streampatch
@@ -240,12 +250,15 @@ terrain/jc3/occluder/patch_09_38_30.streampatch
 terrain/jc3/occluder/patch_09_39_28.streampatch
 terrain/jc3/occluder/patch_09_39_29.streampatch
 terrain/jc3/occluder/patch_09_39_30.streampatch
+terrain/jc3/occluder/patch_09_39_31.streampatch
 terrain/jc3/occluder/patch_09_40_28.streampatch
 terrain/jc3/occluder/patch_09_40_29.streampatch
 terrain/jc3/occluder/patch_09_40_30.streampatch
+terrain/jc3/occluder/patch_09_40_31.streampatch
 terrain/jc3/occluder/patch_09_41_28.streampatch
 terrain/jc3/occluder/patch_09_41_29.streampatch
 terrain/jc3/occluder/patch_09_41_30.streampatch
+terrain/jc3/occluder/patch_09_41_31.streampatch
 terrain/jc3/patches/patch_09_00_00.streampatch
 terrain/jc3/patches/patch_09_00_01.streampatch
 terrain/jc3/patches/patch_09_00_02.streampatch

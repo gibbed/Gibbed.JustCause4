@@ -1,4 +1,4 @@
-; 73/95 (76%)
+; 83/95 (87%)
 ai/aisystem.aisystunec
 ai/worldsim.aisystunec
 asynchronous/asyncbrags.asynccc
@@ -42,11 +42,15 @@ ui/art.location.type.natural.ddsc
 ui/art.playstation.ps4logo.ddsc
 ui/available_content.gfx
 ui/comm_link.gfx
+ui/comm_link_background.gfx
 ui/comm_map.gfx
 ui/comm_map_i6.ddsc
 ui/comm_navigation.gfx
 ui/common_widgets.durango.large_lb.ddsc
 ui/common_widgets.gfx
+ui/feats.art.feat_cat_mayhem.ddsc
+ui/feats.gfx
+ui/feats_i11.ddsc
 ui/front_end_pause_menu.art.questrank.silver.ddsc
 ui/front_end_pause_menu.gfx
 ui/front_end_pause_menu_i1f.ddsc
@@ -59,13 +63,19 @@ ui/hud_center.gfx
 ui/hud_poi.gfx
 ui/load.gfx
 ui/overlay.gfx
+ui/pilot_select.gfx
 ui/poi.art.javi.large.ddsc
 ui/poi.art.user.ddsc
 ui/popups.gfx
 ui/popupsbacker.gfx
+ui/popupsfeats.gfx
 ui/popupsmisc.gfx
+ui/retooler_overview.gfx
+ui/retooler_overview_i1.ddsc
 ui/root.gfx
 ui/shared_lib.gfx
+ui/supply_drop.art.supplydrop_cat_sport_vehicle.ddsc
+ui/supply_drop.gfx
 ui/title.gfx
 ui/title_i28.ddsc
 ui/title_i3e.ddsc

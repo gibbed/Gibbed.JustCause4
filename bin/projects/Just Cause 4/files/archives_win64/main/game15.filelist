@@ -1,4 +1,4 @@
-; 32/1626 (1%)
+; 61/1626 (3%)
 locations/node/secondary_town_11/secondary_town_11_roads.bl
 locations/node/secondary_town_11/secondary_town_11_roads.blo
 locations/node/secondary_town_12/secondary_town_12_road.bl
@@ -19,11 +19,40 @@ locations/quests/questc08_trail.bl
 locations/quests/questc08_trail.blo
 locations/quests/questc10_station01.fl
 locations/quests/questc10_station01.fl.mdic
+locations/quests/questcintro_bridge01.blo
+locations/quests/questcintro_bridge01.blo_adf
+locations/quests/questcintro_bridge01.fl
+locations/quests/questcintro_bridge01.flo
+locations/quests/questcintro_bridge01.nl
+locations/quests/questcintro_bridge01.nl.mdic
+locations/quests/questcintro_bridge01.pfx_breakablecompoundc
+locations/quests/questcintro_bridge01.resourcebundle
+locations/quests/questcintro_bridge02.blo
+locations/quests/questcintro_bridge02.blo_adf
+locations/quests/questcintro_bridge02.nl
+locations/quests/questcintro_bridge02.nl.mdic
+locations/quests/questcintro_bridge02.pfx_breakablecompoundc
+locations/quests/questcintro_bridge02.resourcebundle
+locations/quests/questcintro_bridge03.blo
+locations/quests/questcintro_bridge03.blo_adf
+locations/quests/questcintro_bridge03.nl
+locations/quests/questcintro_bridge03.nl.mdic
+locations/quests/questcintro_bridge03.pfx_breakablecompoundc
+locations/quests/questcintro_bridge03.resourcebundle
 locations/quests/questcintro_junk.blo
 locations/quests/questcintro_junk.nl
 locations/quests/questcintro_junk.nl.mdic
 locations/quests/questcintro_junk.pfx_breakablecompoundc
 locations/quests/questcintro_junk.resourcebundle
+locations/quests/questcintro_main.bl
+locations/quests/questcintro_main.blo
+locations/quests/questcintro_outpost.blo
+locations/quests/questcintro_outpost.blo_adf
+locations/quests/questcintro_outpost.nl
+locations/quests/questcintro_outpost.nl.mdic
+locations/quests/questcintro_outpost.pfx_breakablecompoundc
+locations/quests/questcintro_outpost.pfx_staticcompoundc
+locations/quests/questcintro_outpost.resourcebundle
 locations/quests/questcintro_outpost_02.fl
 locations/quests/questcintro_outpost_02.fl.mdic
 locations/quests/questcintro_start.blo

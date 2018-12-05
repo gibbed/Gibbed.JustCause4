@@ -1,7 +1,8 @@
-; 73/213 (34%)
+; 88/213 (41%)
 models/weapons/wpn_020_shotgun/textures/wpn_020_shotgun_nrm.atx1
 models/weapons/wpn_021_shotgun/textures/wpn_021_shotgun_alpha_mpm.atx1
 models/weapons/wpn_021_shotgun/textures/wpn_021_shotgun_nrm.atx1
+models/weapons/wpn_030_sniper_rifle/textures/wpn_030_sniper_rifle_alpha_mpm.atx1
 models/weapons/wpn_031_sniper_rifle/textures/wpn_031_sniper_rifle_alpha_mpm.atx1
 models/weapons/wpn_031_sniper_rifle/textures/wpn_031_sniper_rifle_nrm.atx1
 models/weapons/wpn_040_combat_rifle/textures/wpn_040_combat_rifle_alpha_mpm.atx1
@@ -13,6 +14,18 @@ models/weapons/wpn_061_rpg/textures/wpn_061_rpg_nrm.atx1
 models/weapons/wpn_070_glauncher/textures/wpn_070_glauncher_alpha_mpm.atx1
 models/weapons/wpn_070_glauncher/textures/wpn_070_glauncher_dif.atx1
 models/weapons/wpn_070_glauncher/textures/wpn_070_glauncher_nrm.atx1
+models/weapons/wpn_202_cannon/textures/rebel/wpn202_cannon_base_rebel_nrm.atx1
+models/weapons/wpn_202_cannon/textures/rebel/wpn202_cannon_body_rebel_dif.atx1
+models/weapons/wpn_202_cannon/textures/rebel/wpn202_cannon_body_rebel_mpm.atx1
+models/weapons/wpn_202_cannon/textures/rebel/wpn202_cannon_body_rebel_nrm.atx1
+models/weapons/wpn_202_cannon/textures/wpn202_cannon_base_nrm.atx1
+models/weapons/wpn_202_cannon/textures/wpn202_cannon_body_dif.atx1
+models/weapons/wpn_202_cannon/textures/wpn202_cannon_body_mpm.atx1
+models/weapons/wpn_202_cannon/textures/wpn202_cannon_body_nrm.atx1
+models/weapons/wpn_203_aa_gun/textures/rebel/wpn_203_aa_gun_rebel_base_nrm.atx1
+models/weapons/wpn_203_aa_gun/textures/rebel/wpn_203_aa_gun_rebel_turret_dif.atx1
+models/weapons/wpn_203_aa_gun/textures/rebel/wpn_203_aa_gun_rebel_turret_mpm.atx1
+models/weapons/wpn_203_aa_gun/textures/rebel/wpn_203_aa_gun_rebel_turret_nrm.atx1
 models/weapons/wpn_203_aa_gun/textures/wpn_203_aa_gun_base_nrm.atx1
 models/weapons/wpn_203_aa_gun/textures/wpn_203_aa_gun_turret_dif.atx1
 models/weapons/wpn_203_aa_gun/textures/wpn_203_aa_gun_turret_emissive.atx1
@@ -35,7 +48,9 @@ sound/fmod_banks/cha_civilian.fmod_bankc
 sound/fmod_banks/cha_footsteps.fmod_bankc
 sound/fmod_banks/cha_global_rico.fmod_bankc
 sound/fmod_banks/cine_intro_blizzard.fmod_bankc
+sound/fmod_banks/cine_intro_frontline.fmod_bankc
 sound/fmod_banks/cine_intro_gear.fmod_bankc
+sound/fmod_banks/cine_sargento_intro_start.fmod_bankc
 sound/fmod_banks/eff_bullets.fmod_bankc
 sound/fmod_banks/eff_electricity_common.fmod_bankc
 sound/fmod_banks/eff_explosion_common.fmod_bankc

@@ -1,4 +1,4 @@
-; 993/1477 (67%)
+; 1013/1477 (68%)
 ai/aicoversettings.aicoversettingsc
 ai/aisystem.aisystunec
 ai/aivision.aisystunec
@@ -576,6 +576,8 @@ textures/ui/collectibles/item_01.ddsc
 textures/ui/collectibles/thumb_item_01.ddsc
 textures/ui/dev_map_grid.ddsc
 textures/ui/fallback.ddsc
+textures/ui/feats/small/46_ragtime_champion.ddsc
+textures/ui/feats/small/48_reeling_extrodinaire.ddsc
 textures/ui/load/0.ddsc
 textures/ui/load/1.ddsc
 textures/ui/load/10.ddsc
@@ -925,6 +927,9 @@ textures/wire_nrm.ddsc
 ui/_generic.gnf
 ui/art.backer.popup.retract.ddsc
 ui/art.backer.popup.speed.ddsc
+ui/art.campaign.medium.homefront.ddsc
+ui/art.campaign.medium.illapa.ddsc
+ui/art.campaign.medium.sandstorm.ddsc
 ui/art.content.type.campaign.sandstorm.ddsc
 ui/art.content_transition.garland.ddsc
 ui/art.location.type.natural.ddsc
@@ -932,8 +937,11 @@ ui/art.score.bonus.distance.ddsc
 ui/available_content.gfx
 ui/button_lt.ddsc
 ui/comm_link.gfx
+ui/comm_link_background.gfx
+ui/comm_link_background_i1.ddsc
 ui/comm_map.gfx
 ui/comm_map_i6.ddsc
+ui/comm_map_popups.gfx
 ui/comm_navigation.art.map_icon.ddsc
 ui/comm_navigation.art.retooler_icon.ddsc
 ui/comm_navigation.gfx
@@ -947,6 +955,9 @@ ui/common_widgets.gfx
 ui/credits.gfx
 ui/dyn_root.gfx
 ui/dyn_video_player.gfx
+ui/feats.art.feat_cat_mayhem.ddsc
+ui/feats.gfx
+ui/feats_i11.ddsc
 ui/font_ara.gfx
 ui/font_debug.gfx
 ui/font_en.gfx
@@ -972,6 +983,7 @@ ui/load_i20.ddsc
 ui/overlay.gfx
 ui/pause.gfx
 ui/pilot_select.art.pilot_07_icon.ddsc
+ui/pilot_select.gfx
 ui/poi.art.user.ddsc
 ui/popup_javi_pointing_statues.ddsc
 ui/popups.art.callerid_stuntdriver01.ddsc
@@ -980,14 +992,22 @@ ui/popups_i1.ddsc
 ui/popups_i1e.ddsc
 ui/popupsbacker.gfx
 ui/popupsbacker_id.ddsc
+ui/popupsfeats.gfx
+ui/popupsfeats_i1.ddsc
 ui/popupsmisc.gfx
 ui/popupsmodules.gfx
 ui/popupsmodules_i20.ddsc
 ui/popupsmodules_i5.ddsc
+ui/popupsobjectives.gfx
+ui/popupsobjectives_ia.ddsc
+ui/retooler_overview.gfx
 ui/root.gfx
 ui/shared_lib.gfx
 ui/speedometer.needle.water.ddsc
+ui/stickers.art.top_wingsuit.ddsc
 ui/subtitles.gfx
+ui/supply_drop.art.supplydrop_cat_sport_vehicle.ddsc
+ui/supply_drop.gfx
 ui/title.gfx
 ui/tutorial_box.gfx
 videos/sb_splash_intro_placeholder.bikc

@@ -1,4 +1,4 @@
-; 55/1953 (2%)
+; 90/1953 (4%)
 locations/campaign/slum_bridge/rf_campaign_slumbridge_favela_01.nl
 locations/campaign/slum_bridge/rf_campaign_slumbridge_favela_01.nl.mdic
 locations/campaign/slum_bridge/rf_campaign_slumbridge_favela_01.obc
@@ -52,5 +52,40 @@ locations/collectibles/rainforest/spring01.blo_adf
 locations/collectibles/rainforest/spring01.nl
 locations/collectibles/rainforest/spring02.fl
 locations/collectibles/rainforest/spring02.fl.mdic
+locations/cutscenes/backers/cutscene_sargento_intro_start.bl
+locations/cutscenes/backers/cutscene_sargento_intro_start.blo
+locations/cutscenes/backers/cutscene_sargento_intro_start.blo_adf
+locations/cutscenes/backers/cutscene_sargento_intro_start.resourcebundle
 locations/cutscenes/bink_cutscene_bookmarks.bl
 locations/cutscenes/bink_cutscene_bookmarks.blo
+locations/cutscenes/intro/cutscene_intro_frontline.bl
+locations/cutscenes/intro/cutscene_intro_frontline.blo
+locations/cutscenes/intro/cutscene_intro_frontline.blo_adf
+locations/cutscenes/intro/cutscene_intro_frontline.nl.mdic
+locations/cutscenes/intro/cutscene_intro_frontline.pfx_staticcompoundc
+locations/cutscenes/intro/cutscene_intro_frontline.resourcebundle
+locations/cutscenes/persistent_setdressing/ps_intro_frontline.blo
+locations/cutscenes/persistent_setdressing/ps_intro_frontline.blo_adf
+locations/cutscenes/persistent_setdressing/ps_intro_frontline.fl
+locations/cutscenes/persistent_setdressing/ps_intro_frontline.fl.mdic
+locations/cutscenes/persistent_setdressing/ps_intro_frontline.nl
+locations/cutscenes/persistent_setdressing/ps_intro_frontline.nl.mdic
+locations/cutscenes/persistent_setdressing/ps_intro_frontline.pfx_breakablecompoundc
+locations/cutscenes/persistent_setdressing/ps_intro_frontline.pfx_staticcompoundc
+locations/cutscenes/persistent_setdressing/ps_intro_frontline.resourcebundle
+locations/cutscenes/persistent_setdressing/ps_outro_end.blo
+locations/cutscenes/persistent_setdressing/ps_outro_end.blo_adf
+locations/cutscenes/persistent_setdressing/ps_outro_end.fl
+locations/cutscenes/persistent_setdressing/ps_outro_end.fl.mdic
+locations/cutscenes/persistent_setdressing/ps_outro_end.nl
+locations/cutscenes/persistent_setdressing/ps_outro_end.nl.mdic
+locations/cutscenes/persistent_setdressing/ps_outro_end.pfx_breakablecompoundc
+locations/cutscenes/persistent_setdressing/ps_outro_end.pfx_staticcompoundc
+locations/cutscenes/persistent_setdressing/ps_outro_end.resourcebundle
+locations/cutscenes/persistent_setdressing/ps_sargento_intro_start.blo
+locations/cutscenes/persistent_setdressing/ps_sargento_intro_start.blo_adf
+locations/cutscenes/persistent_setdressing/ps_sargento_intro_start.nl
+locations/cutscenes/persistent_setdressing/ps_sargento_intro_start.nl.mdic
+locations/cutscenes/persistent_setdressing/ps_sargento_intro_start.pfx_breakablecompoundc
+locations/cutscenes/persistent_setdressing/ps_sargento_intro_start.pfx_staticcompoundc
+locations/cutscenes/persistent_setdressing/ps_sargento_intro_start.resourcebundle

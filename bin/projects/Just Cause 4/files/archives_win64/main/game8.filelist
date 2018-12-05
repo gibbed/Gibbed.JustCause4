@@ -1,4 +1,4 @@
-; 20/987 (2%)
+; 24/987 (2%)
 locations/global/grey_node_flying_fortress/grey_node_flying_fortress_main.bl
 locations/global/grey_node_flying_fortress/grey_node_flying_fortress_main.blo
 locations/global/lightprobes.bl
@@ -15,7 +15,11 @@ locations/hinge_nodes/rainforest/hinge_node_09.fl
 locations/hinge_nodes/rainforest/hinge_node_09.fl.mdic
 locations/node/backer_22/backer_son_doong_cave.fl
 locations/node/backer_22/backer_son_doong_cave.fl.mdic
+locations/node/backer_25/backer_25.fl
+locations/node/backer_25/backer_25.fl.mdic
 locations/node/backer_25/backer_25_encounters.blo
 locations/node/backer_25/backer_25_encounters.nl
+locations/node/backer_25/backer_25_mesh_01.fl
+locations/node/backer_25/backer_25_mesh_01.fl.mdic
 locations/node/node_civilian_01/node_civilian_01_roads.bl
 locations/node/node_civilian_01/node_civilian_01_roads.blo
