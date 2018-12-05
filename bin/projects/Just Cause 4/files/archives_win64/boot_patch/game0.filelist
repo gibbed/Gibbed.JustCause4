@@ -1,0 +1,18 @@
+; 17/95 (17%)
+ai/aisystem.aisystunec
+asynchronous/asyncbrags.asynccc
+environment/base.environc
+online/onlinestatistics.statisticsc
+settings/spawn_budget_pools.bin
+settings/spawn_prop_defs.bin
+settings/spawn_vehicle_defs.bin
+textures/ui/load/24.ddsc
+textures/ui/load/25.ddsc
+textures/ui/load/26.ddsc
+ui/comm_link.gfx
+ui/comm_map.gfx
+ui/load.gfx
+ui/overlay.gfx
+ui/root.gfx
+ui/shared_lib.gfx
+ui/title.gfx

@@ -1,0 +1,10 @@
+; 9/9296 (0%)
+climate/common/topatlas_dif.ddsc
+climate/common/topatlas_nrm.ddsc
+climate/common/trunkatlas_dif.ddsc
+climate/common/trunkatlas_nrm.ddsc
+climate/zone_0/diffuse_textures_mid_0.ddsc
+climate/zone_0/height_textures_mid_0.ddsc
+climate/zone_0/height_textures_near_0.ddsc
+climate/zone_0/normal_textures_mid_0.ddsc
+climate/zone_0/variation_textures_mid_0.ddsc
