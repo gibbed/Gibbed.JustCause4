@@ -1,4 +1,4 @@
-; 90/1953 (4%)
+; 101/1953 (5%)
 locations/campaign/slum_bridge/rf_campaign_slumbridge_favela_01.nl
 locations/campaign/slum_bridge/rf_campaign_slumbridge_favela_01.nl.mdic
 locations/campaign/slum_bridge/rf_campaign_slumbridge_favela_01.obc
@@ -13,6 +13,12 @@ locations/campaign/slum_bridge/rf_slumbridge_intro_ai.blo_adf
 locations/campaign/slum_bridge/rf_slumbridge_intro_ai.nl.mdic
 locations/campaign/slum_bridge/rf_slumbridge_intro_ai.pfx_breakablecompoundc
 locations/campaign/slum_bridge/rf_slumbridge_intro_ai.resourcebundle
+locations/campaign/slum_bridge/rf_slumbridge_post_intro_ai.blo
+locations/campaign/slum_bridge/rf_slumbridge_post_intro_ai.blo_adf
+locations/campaign/slum_bridge/rf_slumbridge_post_intro_ai.nl
+locations/campaign/slum_bridge/rf_slumbridge_post_intro_ai.nl.mdic
+locations/campaign/slum_bridge/rf_slumbridge_post_intro_ai.pfx_breakablecompoundc
+locations/campaign/slum_bridge/rf_slumbridge_post_intro_ai.resourcebundle
 locations/campaign/tropical_storm/tropicalstorm_finale_blockade.fl
 locations/campaign/tropical_storm/tropicalstorm_finale_blockade.fl.mdic
 locations/campaign/tropical_storm/tropicalstorm_finale_start.blo
@@ -28,8 +34,13 @@ locations/collectibles/alpine/pointing_statue_a_aquarius.obc
 locations/collectibles/desert/military01.blo
 locations/collectibles/desert/military01.blo_adf
 locations/collectibles/desert/military01.nl
+locations/collectibles/rainforest/backer_son_doong_cave.blo
+locations/collectibles/rainforest/backer_son_doong_cave.blo_adf
 locations/collectibles/rainforest/backer_son_doong_cave.fl
 locations/collectibles/rainforest/backer_son_doong_cave.fl.mdic
+locations/collectibles/rainforest/backer_son_doong_cave.nl
+locations/collectibles/rainforest/backer_son_doong_cave.nl.mdic
+locations/collectibles/rainforest/backer_son_doong_cave.pfx_staticcompoundc
 locations/collectibles/rainforest/blackbox01.blo
 locations/collectibles/rainforest/blackbox01.nl
 locations/collectibles/rainforest/factory10.blo

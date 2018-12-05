@@ -1,4 +1,4 @@
-; 1107/9117 (12%)
+; 1114/9117 (12%)
 sound/fmod_banks/veh_gen_chassi_and_suspension.fmod_bankc
 sound/fmod_banks/veh_v000_car_atv.fmod_bankc
 sound/fmod_banks/veh_v001_car_forklift.fmod_bankc
@@ -157,6 +157,7 @@ terrain/jc3/navheightfield/globalhires/35_31.nhf
 terrain/jc3/navheightfield/globalhires/35_32.nhf
 terrain/jc3/navheightfield/globalhires/35_33.nhf
 terrain/jc3/navheightfield/globalhires/35_34.nhf
+terrain/jc3/navheightfield/globalhires/36_25.nhf
 terrain/jc3/navheightfield/globalhires/36_26.nhf
 terrain/jc3/navheightfield/globalhires/36_27.nhf
 terrain/jc3/navheightfield/globalhires/36_28.nhf
@@ -165,6 +166,7 @@ terrain/jc3/navheightfield/globalhires/36_30.nhf
 terrain/jc3/navheightfield/globalhires/36_31.nhf
 terrain/jc3/navheightfield/globalhires/36_32.nhf
 terrain/jc3/navheightfield/globalhires/36_33.nhf
+terrain/jc3/navheightfield/globalhires/37_25.nhf
 terrain/jc3/navheightfield/globalhires/37_26.nhf
 terrain/jc3/navheightfield/globalhires/37_27.nhf
 terrain/jc3/navheightfield/globalhires/37_28.nhf
@@ -173,6 +175,7 @@ terrain/jc3/navheightfield/globalhires/37_30.nhf
 terrain/jc3/navheightfield/globalhires/37_31.nhf
 terrain/jc3/navheightfield/globalhires/37_32.nhf
 terrain/jc3/navheightfield/globalhires/37_33.nhf
+terrain/jc3/navheightfield/globalhires/38_25.nhf
 terrain/jc3/navheightfield/globalhires/38_26.nhf
 terrain/jc3/navheightfield/globalhires/38_27.nhf
 terrain/jc3/navheightfield/globalhires/38_28.nhf
@@ -181,6 +184,7 @@ terrain/jc3/navheightfield/globalhires/38_30.nhf
 terrain/jc3/navheightfield/globalhires/38_31.nhf
 terrain/jc3/navheightfield/globalhires/38_32.nhf
 terrain/jc3/navheightfield/globalhires/38_33.nhf
+terrain/jc3/navheightfield/globalhires/39_25.nhf
 terrain/jc3/navheightfield/globalhires/39_26.nhf
 terrain/jc3/navheightfield/globalhires/39_27.nhf
 terrain/jc3/navheightfield/globalhires/39_28.nhf
@@ -189,6 +193,7 @@ terrain/jc3/navheightfield/globalhires/39_30.nhf
 terrain/jc3/navheightfield/globalhires/39_31.nhf
 terrain/jc3/navheightfield/globalhires/39_32.nhf
 terrain/jc3/navheightfield/globalhires/39_33.nhf
+terrain/jc3/navheightfield/globalhires/40_25.nhf
 terrain/jc3/navheightfield/globalhires/40_26.nhf
 terrain/jc3/navheightfield/globalhires/40_27.nhf
 terrain/jc3/navheightfield/globalhires/40_28.nhf
@@ -197,6 +202,7 @@ terrain/jc3/navheightfield/globalhires/40_30.nhf
 terrain/jc3/navheightfield/globalhires/40_31.nhf
 terrain/jc3/navheightfield/globalhires/40_32.nhf
 terrain/jc3/navheightfield/globalhires/40_33.nhf
+terrain/jc3/navheightfield/globalhires/41_25.nhf
 terrain/jc3/navheightfield/globalhires/41_26.nhf
 terrain/jc3/navheightfield/globalhires/41_27.nhf
 terrain/jc3/navheightfield/globalhires/41_28.nhf
@@ -205,6 +211,7 @@ terrain/jc3/navheightfield/globalhires/41_30.nhf
 terrain/jc3/navheightfield/globalhires/41_31.nhf
 terrain/jc3/navheightfield/globalhires/41_32.nhf
 terrain/jc3/navheightfield/globalhires/41_33.nhf
+terrain/jc3/navheightfield/globalhires/42_25.nhf
 terrain/jc3/navheightfield/globalhires/42_26.nhf
 terrain/jc3/navheightfield/globalhires/42_27.nhf
 terrain/jc3/navheightfield/globalhires/42_28.nhf

@@ -1,4 +1,4 @@
-; 429/1938 (22%)
+; 432/1938 (22%)
 models/environments/locale_illapa/textures/ill_science_floor_a_clean_dif.atx1
 models/environments/locale_illapa/textures/ill_science_floor_a_clean_mpm.atx1
 models/environments/locale_illapa/textures/ill_science_floor_a_clean_nrm.atx1
@@ -27,6 +27,8 @@ models/environments/locale_industrial/ind_resource/textures/logpile_small_01_nrm
 models/environments/locale_industrial/ind_resource/textures/logpile_wall_incline_01_dif.atx1
 models/environments/locale_industrial/ind_resource/textures/logpile_wall_incline_01_mpm.atx1
 models/environments/locale_industrial/ind_resource/textures/logpile_wall_incline_01_nrm.atx1
+models/environments/locale_industrial/ind_resource/textures/lumberpile_small_01_dif.atx1
+models/environments/locale_industrial/ind_resource/textures/lumberpile_small_01_mpm.atx1
 models/environments/locale_industrial/ind_resource/textures/lumberpile_small_01_nrm.atx1
 models/environments/locale_industrial/ind_smoke_stack_a/textures/ind_smoke_stack_metal_trims_01_a_clean_dif.atx1
 models/environments/locale_industrial/ind_smoke_stack_a/textures/ind_smoke_stack_metal_trims_01_a_clean_mpm.atx1
@@ -227,6 +229,7 @@ models/environments/locale_village/vil_prop_a/a_platform_05x05m_02.meshc
 models/environments/locale_village/vil_prop_a/a_walkway_cor_02.meshc
 models/environments/locale_village/vil_prop_a/a_walkway_str_10m_04.meshc
 models/environments/locale_village/vil_prop_a/a_walkway_trn_05m_02.meshc
+models/environments/locale_village/vil_prop_a/small_boat_masks/small_boat_mask_mask.atx1
 models/environments/locale_village/vil_prop_a/textures/bag_01_a_nrm.atx1
 models/environments/locale_village/vil_prop_a/textures/bag_02_a_nrm.atx1
 models/environments/locale_village/vil_prop_a/textures/prop_set_01_a_nrm.atx1

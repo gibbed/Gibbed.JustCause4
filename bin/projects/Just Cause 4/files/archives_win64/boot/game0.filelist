@@ -1,4 +1,4 @@
-; 1013/1477 (68%)
+; 1014/1477 (68%)
 ai/aicoversettings.aicoversettingsc
 ai/aisystem.aisystunec
 ai/aivision.aisystunec
@@ -576,6 +576,7 @@ textures/ui/collectibles/item_01.ddsc
 textures/ui/collectibles/thumb_item_01.ddsc
 textures/ui/dev_map_grid.ddsc
 textures/ui/fallback.ddsc
+textures/ui/feats/small/12_no_damage_wingsuit.ddsc
 textures/ui/feats/small/46_ragtime_champion.ddsc
 textures/ui/feats/small/48_reeling_extrodinaire.ddsc
 textures/ui/load/0.ddsc

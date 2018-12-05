@@ -1,4 +1,4 @@
-; 338/1360 (24%)
+; 343/1360 (25%)
 models/environments/shared/textures/metal_panel_01_a_clean_nrm.atx1
 models/environments/shared/textures/metal_panel_02_a_dirty_nrm.atx1
 models/environments/shared/textures/metal_panel_02_a_nrm.atx1
@@ -27,6 +27,8 @@ models/environments/shared/textures/metal_panel_11_e_trim_nrm.atx1
 models/environments/shared/textures/metal_panel_14_b_clean_dif.atx1
 models/environments/shared/textures/metal_panel_14_b_clean_mpm.atx1
 models/environments/shared/textures/metal_panel_14_b_clean_nrm.atx1
+models/environments/shared/textures/metal_panel_15_a_clean_dif.atx1
+models/environments/shared/textures/metal_panel_15_a_clean_mpm.atx1
 models/environments/shared/textures/metal_panel_15_a_clean_nrm.atx1
 models/environments/shared/textures/metal_panel_16_a_bare_dmg_nrm.atx1
 models/environments/shared/textures/metal_panel_16_a_bare_nrm.atx1
@@ -85,6 +87,8 @@ models/environments/shared/textures/pipe_01_a_nrm.atx1
 models/environments/shared/textures/plaster_01_a_clean_nrm.atx1
 models/environments/shared/textures/plaster_01_d_clean_nrm.atx1
 models/environments/shared/textures/plaster_favelas_unfinished_a_nrm.atx1
+models/environments/shared/textures/plaster_highrise_a_dirt_dif.atx1
+models/environments/shared/textures/plaster_highrise_a_dirt_mpm.atx1
 models/environments/shared/textures/plaster_highrise_a_dirt_nrm.atx1
 models/environments/shared/textures/plaster_wall_01_a_clean_nrm.atx1
 models/environments/shared/textures/plaster_wall_01_a_damaged_nrm.atx1
@@ -191,6 +195,7 @@ models/environments/shared/textures/wood_rough_01_a_moss_nrm.atx1
 models/environments/shared/textures/wood_rough_01_a_mpm.atx1
 models/environments/shared/textures/wood_rough_01_a_nrm.atx1
 models/environments/shared/textures/wood_rough_02_a__dif.atx1
+models/environments/shared/textures/wood_rough_02_a__mpm.atx1
 models/environments/shared/textures/wood_rough_02_a__nrm.atx1
 models/environments/test/textures/rock_test_007_dif.atx1
 models/environments/test/textures/rock_test_007_nrm.atx1

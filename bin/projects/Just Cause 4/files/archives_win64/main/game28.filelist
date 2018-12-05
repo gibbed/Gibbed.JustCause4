@@ -1,4 +1,4 @@
-; 494/1311 (37%)
+; 501/1311 (38%)
 models/vehicles/01_land/v039_car_oldcampervan/oldcampervan_body.hrmeshc
 models/vehicles/01_land/v039_car_oldcampervan/texture/v039_car_oldcampervan_body_dif.atx1
 models/vehicles/01_land/v039_car_oldcampervan/texture/v039_car_oldcampervan_body_mpm.atx1
@@ -177,6 +177,7 @@ models/vehicles/01_land/v902_trailer_lowloader/textures/v902_trailer_lowloader_t
 models/vehicles/01_land/v902_trailer_lowloader/textures/v902_trailer_lowloader_undercarriage_dif.atx1
 models/vehicles/01_land/v902_trailer_lowloader/textures/v902_trailer_lowloader_undercarriage_mpm.atx1
 models/vehicles/01_land/v902_trailer_lowloader/textures/v902_trailer_lowloader_undercarriage_nrm.atx1
+models/vehicles/01_land/v902_trailer_lowloader/textures/v902_trailer_lowloader_wheel_mpm.atx1
 models/vehicles/01_land/v902_trailer_lowloader/textures/v902_trailer_lowloader_wheel_nrm.atx1
 models/vehicles/01_land/v904_trailer_smallmobileweapon/smallmobileweapon.physicsc
 models/vehicles/01_land/v904_trailer_smallmobileweapon/smallmobileweapon_body.hrmeshc
@@ -337,9 +338,15 @@ models/vehicles/02_air/v406_plane_smallprop/textures/v406_plane_smallprop_interi
 models/vehicles/02_air/v406_plane_smallprop/textures/v406_plane_smallprop_rotor_alpha_dif.atx1
 models/vehicles/02_air/v406_plane_smallprop/textures/v406_plane_smallprop_rotor_nrm.atx1
 models/vehicles/02_air/v407_plane_mediumprop/mediumprop_body.hrmeshc
+models/vehicles/02_air/v407_plane_mediumprop/textures/v407_plane_mediumprop_body_dif.atx1
+models/vehicles/02_air/v407_plane_mediumprop/textures/v407_plane_mediumprop_body_mpm.atx1
+models/vehicles/02_air/v407_plane_mediumprop/textures/v407_plane_mediumprop_body_msk.atx1
 models/vehicles/02_air/v407_plane_mediumprop/textures/v407_plane_mediumprop_body_nrm.atx1
 models/vehicles/02_air/v407_plane_mediumprop/textures/v407_plane_mediumprop_glass_alpha_dif.atx1
+models/vehicles/02_air/v407_plane_mediumprop/textures/v407_plane_mediumprop_int_dif.atx1
+models/vehicles/02_air/v407_plane_mediumprop/textures/v407_plane_mediumprop_int_mpm.atx1
 models/vehicles/02_air/v407_plane_mediumprop/textures/v407_plane_mediumprop_int_nrm.atx1
+models/vehicles/02_air/v407_plane_mediumprop/textures/v407_plane_mediumprop_wheel_nrm.atx1
 models/vehicles/02_air/v408_plane_ultralight/textures/v408_plane_ultralight_body_dif.atx1
 models/vehicles/02_air/v408_plane_ultralight/textures/v408_plane_ultralight_body_mpm.atx1
 models/vehicles/02_air/v408_plane_ultralight/textures/v408_plane_ultralight_body_msk.atx1

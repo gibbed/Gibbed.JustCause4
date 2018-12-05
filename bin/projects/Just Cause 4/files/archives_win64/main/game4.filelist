@@ -1,4 +1,4 @@
-; 1129/2386 (47%)
+; 1132/2386 (47%)
 editor/entities/characters/civilians/17_upperclass/civ_upperclass_male_01.ee
 editor/entities/characters/civilians/18_farmers/civ_farmer_female_01.ee
 editor/entities/characters/civilians/18_farmers/civ_farmer_male_01.ee
@@ -623,6 +623,9 @@ editor/entities/vehicles/02_air/v203_helicopter_lightattack/v203_helicopter_ligh
 editor/entities/vehicles/02_air/v203_helicopter_lightattack/v203_helicopter_lightattack_military_01.epe_adf
 editor/entities/vehicles/02_air/v203_helicopter_lightattack/v203_helicopter_lightattack_military_01.resourcebundle
 editor/entities/vehicles/02_air/v203_helicopter_lightattack/v203_helicopter_lightattack_rebel_01.ee
+editor/entities/vehicles/02_air/v203_helicopter_lightattack/v203_helicopter_lightattack_rebel_01.epe
+editor/entities/vehicles/02_air/v203_helicopter_lightattack/v203_helicopter_lightattack_rebel_01.epe_adf
+editor/entities/vehicles/02_air/v203_helicopter_lightattack/v203_helicopter_lightattack_rebel_01.resourcebundle
 editor/entities/vehicles/02_air/v204_helicopter_heavyassault/v204_helicopter_heavyassault_military_01.ee
 editor/entities/vehicles/02_air/v204_helicopter_heavyassault/v204_helicopter_heavyassault_rebel_01.ee
 editor/entities/vehicles/02_air/v205_helicopter_utility/v205_helicopter_utility_civilian_01.ee

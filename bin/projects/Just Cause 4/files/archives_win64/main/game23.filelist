@@ -1,4 +1,4 @@
-; 244/1800 (13%)
+; 245/1800 (13%)
 models/characters/main_characters/javier/textures/javier_hair_002_alpha_dif.atx1
 models/characters/main_characters/javier/textures/javier_hair_002_alpha_mpm.atx1
 models/characters/main_characters/javier/textures/javier_hair_002_nrm.atx1
@@ -80,6 +80,7 @@ models/characters/world_sim/0_heads/textures/f_heads_f1_s013_nancy_rodriguez_nrm
 models/characters/world_sim/0_heads/textures/f_heads_f1_s020_kate_bonanno_nrm.atx1
 models/characters/world_sim/0_heads/textures/f_heads_f2_s007_natalie_asport_nrm.atx1
 models/characters/world_sim/0_heads/textures/f_heads_f2_s008_diana_wang_nrm.atx1
+models/characters/world_sim/0_heads/textures/f_heads_f2_s008_jessica_vicente_nrm.atx1
 models/characters/world_sim/0_heads/textures/f_heads_f2_s009_diana_rodriguez_nrm.atx1
 models/characters/world_sim/0_heads/textures/f_heads_f2_s009_janette_rodriguez_nrm.atx1
 models/characters/world_sim/0_heads/textures/f_heads_f2_s012_alyssa_tacopino_nrm.atx1

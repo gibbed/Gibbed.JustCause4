@@ -1,4 +1,4 @@
-; 428/2740 (15%)
+; 434/2740 (15%)
 models/environments/biome_generic/textures/vegetation_generic_deforestation_branches_001_dif.atx1
 models/environments/biome_generic/textures/vegetation_generic_deforestation_branches_001_nrm.atx1
 models/environments/biome_generic/textures/vegetation_generic_rock_large_001_nrm.atx1
@@ -55,6 +55,7 @@ models/environments/biome_rainforest/textures/vegetation_rainforest_tree_palm_ba
 models/environments/biome_rainforest/textures/vegetation_tree_bark_003_nrm.atx1
 models/environments/biome_rainforest/textures/vegetation_tree_bark_005_nrm.atx1
 models/environments/locale_airport/air_bui_a/air_bui_a_garage_01.hrmeshc
+models/environments/locale_airport/air_bui_a/air_bui_barracks_masks/a_barrack_end_mask.atx1
 models/environments/locale_airport/air_prop_a/textures/air_cargo_pallet_dif.atx1
 models/environments/locale_airport/air_prop_a/textures/air_cargo_pallet_mpm.atx1
 models/environments/locale_airport/air_prop_a/textures/air_cargo_pallet_nrm.atx1
@@ -93,6 +94,8 @@ models/environments/locale_global/anim_props_a/textures/tool_cabinet_nrm.atx1
 models/environments/locale_global/anim_props_b/textures/miras_tools_01_dif.atx1
 models/environments/locale_global/anim_props_b/textures/miras_tools_01_mpm.atx1
 models/environments/locale_global/anim_props_b/textures/miras_tools_01_nrm.atx1
+models/environments/locale_global/cafe_furniture_a/textures/cafe_furniture_01_dif.atx1
+models/environments/locale_global/cafe_furniture_a/textures/cafe_furniture_01_mpm.atx1
 models/environments/locale_global/cafe_furniture_a/textures/cafe_furniture_01_nrm.atx1
 models/environments/locale_global/cafe_furniture_a/textures/cafe_furniture_02_dif.atx1
 models/environments/locale_global/cafe_furniture_a/textures/cafe_furniture_02_mpm.atx1
@@ -289,6 +292,8 @@ models/environments/locale_global/glo_traffic_cone_a/textures/glo_traffic_cone_b
 models/environments/locale_global/glo_trans_box_a/textures/glo_transformer_lg_box03_dif.atx1
 models/environments/locale_global/glo_trans_box_a/textures/glo_transformer_lg_box03_mpm.atx1
 models/environments/locale_global/glo_trans_box_a/textures/glo_transformer_lg_box03_nrm.atx1
+models/environments/locale_global/glo_trans_box_a/textures/glo_transformer_med_box_02_dif.atx1
+models/environments/locale_global/glo_trans_box_a/textures/glo_transformer_med_box_02_mpm.atx1
 models/environments/locale_global/glo_trans_box_a/textures/glo_transformer_med_box_02_nrm.atx1
 models/environments/locale_global/glo_trans_box_a/textures/glo_transformer_sm_box01_dif.atx1
 models/environments/locale_global/glo_trans_box_a/textures/glo_transformer_sm_box01_mpm.atx1
@@ -362,6 +367,7 @@ models/environments/locale_global/trash_pile_a/textures/trash_elements_a_02_dif.
 models/environments/locale_global/trash_pile_a/textures/trash_elements_a_02_mpm.atx1
 models/environments/locale_global/trash_pile_a/textures/trash_elements_a_02_nrm.atx1
 models/environments/locale_global/trash_pile_a/textures/trash_piles_set_a_nrm.atx1
+models/environments/locale_global/vehicle_wrecks/textures/cargotransport_wings_mask.atx1
 models/environments/locale_global/vehicle_wrecks/textures/wheel_medium_nrm.atx1
 models/environments/locale_global/vehicle_wrecks/vehiclewrecks_aatank_wreck.hrmeshc
 models/environments/locale_global/vehicle_wrecks/vehiclewrecks_apc_wreck.hrmeshc

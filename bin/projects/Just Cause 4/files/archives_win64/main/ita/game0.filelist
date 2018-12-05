@@ -1,4 +1,5 @@
-; 537/11286 (4%)
+; 544/11286 (4%)
+sound/dialogue/eng/bark_civ_female01_approach_vendor_10.wavc
 sound/dialogue/eng/bark_civ_female01_bumped_by_player_10.wavc
 sound/dialogue/eng/bark_civ_female01_chat_idle_10.wavc
 sound/dialogue/eng/bark_civ_female01_chat_idle_20.wavc
@@ -20,6 +21,8 @@ sound/dialogue/eng/bark_civ_female04_sneeze_20.wavc
 sound/dialogue/eng/bark_civ_male01_approach_vendor_10.wavc
 sound/dialogue/eng/bark_civ_male01_chat_idle_10.wavc
 sound/dialogue/eng/bark_civ_male01_chat_idle_20.wavc
+sound/dialogue/eng/bark_civ_male01_conversation_relaxed_f_10_10.wavc
+sound/dialogue/eng/bark_civ_male01_conversation_relaxed_f_30_10.wavc
 sound/dialogue/eng/bark_civ_male01_look_at_civ_10.wavc
 sound/dialogue/eng/bark_civ_male01_look_at_civ_20.wavc
 sound/dialogue/eng/bark_civ_male01_slumbridge_intro_relaxed_e_10_10.wavc
@@ -28,6 +31,10 @@ sound/dialogue/eng/bark_civ_male02_bang_on_door_10.wavc
 sound/dialogue/eng/bark_civ_male02_bang_on_door_20.wavc
 sound/dialogue/eng/bark_civ_male02_bumped_by_player_20.wavc
 sound/dialogue/eng/bark_civ_male02_chat_idle_10.wavc
+sound/dialogue/eng/bark_civ_male02_chat_idle_30.wavc
+sound/dialogue/eng/bark_civ_male02_conversation_relaxed_f_20_10.wavc
+sound/dialogue/eng/bark_civ_male02_look_at_civ_10.wavc
+sound/dialogue/eng/bark_civ_male02_phone_monologue_30.wavc
 sound/dialogue/eng/bark_civ_male02_slumbridge_intro_worried_b_20_10.wavc
 sound/dialogue/eng/bark_civ_male03_chat_idle_10.wavc
 sound/dialogue/eng/bark_civ_male03_look_at_civ_10.wavc
