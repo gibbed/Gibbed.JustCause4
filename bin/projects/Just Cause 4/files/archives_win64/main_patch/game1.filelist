@@ -1,4 +1,22 @@
-; 146/1797 (8%)
+; 164/1797 (9%)
+locations/global/tutorials.blo
+locations/node/node_military_12/node_military_12_destruction.blo
+locations/node/node_military_12/node_military_12_intro_outpost01.blo
+locations/node/node_military_12/node_military_12_intro_outpost02.blo
+locations/node/node_military_12/node_military_12_main.blo
+models/environments/locale_colonial/col_bui_a/col_bui_a_36x32_01.hrmeshc
+packages/main/expentity_info_collection.expentity_infoc
+packages/main/generated_global_resources.bl
+packages/main/landmarks.blo
+packages/main/localcubemap.ssdbc
+packages/main/playerspawn.blo
+packages/main/poi.blo
+packages/main/spawn_expentity_defs.bin
+packages/main/weapons.weaponsc
+sound/fmod_banks/cha_global_rico.fmod_bankc
+sound/fmod_banks/global_veh_effects.fmod_bankc
+sound/fmod_banks/wpn_global.fmod_bankc
+terrain/jc3/navheightfield/globalhires/25_35.nhf
 terrain/jc3/patches/patch_09_00_00.streampatch
 terrain/jc3/patches/patch_09_00_01.streampatch
 terrain/jc3/patches/patch_09_00_02.streampatch

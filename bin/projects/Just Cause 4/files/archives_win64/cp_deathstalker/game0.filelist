@@ -1,1 +1,13 @@
-; 0/48 (0%)
+; 12/48 (25%)
+dlc/cp_deathstalker/cp_deathstalker.dlcinstallinfo
+dlc/cp_deathstalker/editor/entities/dlc/parachute_skins/skin_parachute_rico.ee
+dlc/cp_deathstalker/editor/entities/dlc/wingsuit_skins/skin_wingsuit_rico.ee
+dlc/cp_deathstalker/editor/entities/vehicles/01_land/v017_car_vintagemuscle/v017_car_vintagemuscle_rico.ee
+dlc/cp_deathstalker/editor/entities/vehicles/01_land/v046_car_racingbuggy/v046_car_racingbuggy_preorder_01.ee
+dlc/cp_deathstalker/editor/entities/weapons/01_wielded/wpn_901_signature_rifle/wpn_901_signature_rifle.ee
+dlc/cp_deathstalker/editor/entities/weapons/01_wielded/wpn_901_signature_rifle/wpn_901_signature_rifle_mag.ee
+dlc/cp_deathstalker/settings/spawn_prop_defs.bin
+dlc/cp_deathstalker/settings/spawn_vehicle_defs.bin
+dlc/cp_deathstalker/settings/spawn_weapon_defs.bin
+packages/cp_deathstalker/weapons.weaponsc
+packages/cp_deathstalker/world.bin

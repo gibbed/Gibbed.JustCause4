@@ -1,1 +1,13 @@
-; 0/987 (0%)
+; 12/987 (1%)
+locations/global/grey_node_flying_fortress/grey_node_flying_fortress_main.bl
+locations/global/grey_node_flying_fortress/grey_node_flying_fortress_main.blo
+locations/global/lightprobes.bl
+locations/global/lightprobes.blo
+locations/global/river_settings.bl
+locations/global/river_settings.blo
+locations/global/tutorials.bl
+locations/global/tutorials.blo
+locations/global/waterfalls.bl
+locations/global/waterfalls.blo
+locations/node/node_civilian_01/node_civilian_01_roads.bl
+locations/node/node_civilian_01/node_civilian_01_roads.blo

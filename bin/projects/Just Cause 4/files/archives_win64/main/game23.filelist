@@ -1,1 +1,35 @@
-; 0/1800 (0%)
+; 34/1800 (1%)
+models/characters/main_characters/mira/mira_body_002.hrmeshc
+models/characters/main_characters/mira/textures/mira_arms_002_alpha_mpm.atx1
+models/characters/main_characters/mira/textures/mira_arms_002_dif.atx1
+models/characters/main_characters/mira/textures/mira_arms_002_nrm.atx1
+models/characters/main_characters/mira/textures/mira_body_002_alpha_mpm.atx1
+models/characters/main_characters/mira/textures/mira_body_002_dif.atx1
+models/characters/main_characters/mira/textures/mira_body_002_nrm.atx1
+models/characters/main_characters/mira/textures/mira_hair_002_alpha_dif.atx1
+models/characters/main_characters/mira/textures/mira_hair_002_alpha_mpm.atx1
+models/characters/main_characters/mira/textures/mira_hair_002_nrm.atx1
+models/characters/main_characters/mira/textures/mira_head_002_alpha_mpm.atx1
+models/characters/main_characters/mira/textures/mira_head_002_dif.atx1
+models/characters/main_characters/mira/textures/mira_head_002_nrm.atx1
+models/characters/rico/rico_body.hrmeshc
+models/characters/rico/textures/rico_accessories_alpha_mpm.atx1
+models/characters/rico/textures/rico_accessories_dif.atx1
+models/characters/rico/textures/rico_accessories_nrm.atx1
+models/characters/rico/textures/rico_arms_alpha_mpm.atx1
+models/characters/rico/textures/rico_arms_dif.atx1
+models/characters/rico/textures/rico_arms_nrm.atx1
+models/characters/rico/textures/rico_bots_alpha_mpm.atx1
+models/characters/rico/textures/rico_bots_dif.atx1
+models/characters/rico/textures/rico_bots_nrm.atx1
+models/characters/rico/textures/rico_hair_alpha_dif.atx1
+models/characters/rico/textures/rico_hair_alpha_mpm.atx1
+models/characters/rico/textures/rico_hair_nrm.atx1
+models/characters/rico/textures/rico_head_alpha_mpm.atx1
+models/characters/rico/textures/rico_head_dif.atx1
+models/characters/rico/textures/rico_head_nrm.atx1
+models/characters/rico/textures/rico_tops_alpha_mpm.atx1
+models/characters/rico/textures/rico_tops_dif.atx1
+models/characters/rico/textures/rico_tops_nrm.atx1
+models/environments/biome_alpine/textures/vegetation_alpine_rock_snow_large_002_nrm.atx1
+models/environments/biome_alpine/textures/vegetation_alpine_rock_snow_large_003_nrm.atx1

@@ -1,1 +1,11 @@
-; 0/942 (0%)
+; 10/942 (1%)
+locations/node/node_industrial_10/node_industrial_10_roads.bl
+locations/node/node_industrial_10/node_industrial_10_roads.blo
+locations/node/node_military_01/node_military_01_roads.bl
+locations/node/node_military_01/node_military_01_roads.blo
+locations/node/node_military_02/node_military_02_prison_roads.bl
+locations/node/node_military_02/node_military_02_prison_roads.blo
+locations/node/node_military_04/node_military_04_roads.bl
+locations/node/node_military_04/node_military_04_roads.blo
+locations/node/node_military_04/node_military_04_water.bl
+locations/node/node_military_04/node_military_04_water.blo

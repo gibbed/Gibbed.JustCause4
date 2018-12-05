@@ -1,4 +1,4 @@
-; 693/1178 (58%)
+; 694/1178 (58%)
 ai/tiles/31_15.navmeshc
 ai/tiles/31_16.navmeshc
 ai/tiles/31_17.navmeshc
@@ -76,6 +76,7 @@ ai/tiles/33_28.navmeshc
 ai/tiles/33_29.navmeshc
 ai/tiles/33_30.navmeshc
 ai/tiles/33_31.navmeshc
+ai/tiles/33_32.navmeshc
 ai/tiles/33_33.navmeshc
 ai/tiles/33_34.navmeshc
 ai/tiles/33_35.navmeshc
