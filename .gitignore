@@ -255,3 +255,4 @@ paket-files/
 *.sln.iml
 
 ![Bb]in/projects
+[Bb]in/projects/*/files/test*
