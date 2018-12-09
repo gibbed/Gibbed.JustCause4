@@ -241,10 +241,19 @@ namespace RebuildFileLists
                 },
                 new[]
                 {
-                    ".ee", ".epe", ".epe_adf",
-                    ".bl", ".blo", ".blo_adf",
-                    ".fl", ".flo", ".flo_adf",
-                    ".nl", ".nlo", ".nlo_adf",
+                    ".ee", ".epe", ".epe_adf", ".wtunec", ".ftunec",
+                    null,
+                    ".resourcebundle",
+                },
+                new[]
+                {
+                    ".bl", ".blo", ".blo_adf", ".blo.mdic",
+                    ".fl", ".flo", ".flo_adf", ".fl.mdic",
+                    ".nl", ".nlo", ".nl.mdic",
+                    ".pfx_breakablecompoundc",
+                    ".pfx_staticcompoundc",
+                    ".obc",
+                    null,
                     ".resourcebundle",
                 },
             };
@@ -252,27 +261,45 @@ namespace RebuildFileLists
             var oldNames = hashes.GetStrings().ToArray();
             foreach (var oldName in oldNames)
             {
-                var oldExtension = Path.GetExtension(oldName);
-                if (string.IsNullOrEmpty(oldExtension) == true)
-                {
-                    continue;
-                }
-
                 foreach (var extensionGroup in extensionGroups)
                 {
-                    if (extensionGroup.Contains(oldExtension) == false)
+                    string oldExtension = null;
+                    int oldIndex = -1;
+                    for (int i = 0; i < extensionGroup.Length; i++)
+                    {
+                        var extension = extensionGroup[i];
+                        if (extension == null)
+                        {
+                            break;
+                        }
+
+                        if (oldName.EndsWith(extension) == true)
+                        {
+                            oldExtension = extension;
+                            oldIndex = i;
+                            break;
+                        }
+                    }
+
+                    if (oldExtension == null)
                     {
                         continue;
                     }
 
-                    foreach (var newExtension in extensionGroup)
+                    for (int i = 0; i < extensionGroup.Length; i++)
                     {
-                        if (newExtension == oldExtension)
+                        if (i == oldIndex)
                         {
                             continue;
                         }
 
-                        var newName = oldName.Substring(oldName.Length - oldExtension.Length) + newExtension;
+                        var newExtension = extensionGroup[i];
+                        if (newExtension == null)
+                        {
+                            continue;
+                        }
+
+                        var newName = oldName.Substring(0, oldName.Length - oldExtension.Length) + newExtension;
                         var newHash = newName.HashJenkins();
 
                         if (hashes.Contains(newHash) == true)
