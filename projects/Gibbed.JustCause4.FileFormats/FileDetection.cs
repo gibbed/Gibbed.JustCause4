@@ -84,6 +84,15 @@ namespace Gibbed.JustCause4.FileFormats
                 }
             }
 
+            if (read >= 16)
+            {
+                var magic = BitConverter.ToUInt32(guess, 12);
+                if (_Simple4Lookup.ContainsKey(magic) == true)
+                {
+                    return _Simple4Lookup[magic].Extension;
+                }
+            }
+
             if (read >= 8)
             {
                 var magic = BitConverter.ToUInt64(guess, 0);
