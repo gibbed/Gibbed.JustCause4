@@ -33,12 +33,14 @@ namespace Gibbed.JustCause4.FileFormats
 
         private Endian _Endian;
         private uint _Alignment;
-        private readonly List<KeyValuePair<uint, uint>> _Unknowns;
+        private uint _MaxCompressedBlockSize;
+        private uint _UncompressedBlockSize;
+        private readonly List<CompressedBlockInfo> _CompressedBlocks;
         private readonly List<EntryInfo> _Entries;
 
         public ArchiveTableFile()
         {
-            this._Unknowns = new List<KeyValuePair<uint, uint>>();
+            this._CompressedBlocks = new List<CompressedBlockInfo>();
             this._Entries = new List<EntryInfo>();
         }
 
@@ -54,9 +56,21 @@ namespace Gibbed.JustCause4.FileFormats
             set { this._Alignment = value; }
         }
 
-        public List<KeyValuePair<uint, uint>> Unknowns
+        public uint MaxCompressedBlockSize
         {
-            get { return this._Unknowns; }
+            get { return this._MaxCompressedBlockSize; }
+            set { this._MaxCompressedBlockSize = value; }
+        }
+
+        public uint UncompressedBlockSize
+        {
+            get { return this._UncompressedBlockSize; }
+            set { this._UncompressedBlockSize = value; }
+        }
+
+        public List<CompressedBlockInfo> CompressedBlocks
+        {
+            get { return this._CompressedBlocks; }
         }
 
         public List<EntryInfo> Entries
@@ -87,44 +101,85 @@ namespace Gibbed.JustCause4.FileFormats
 
             var alignment = input.ReadValueU32(endian);
             var unknown0C = input.ReadValueU32(endian);
-            var unknown10 = input.ReadValueU32(endian);
-            var unknown14 = input.ReadValueU32(endian);
+            var maxCompressedBlockSize = input.ReadValueU32(endian);
+            var uncompressedBlockSize = input.ReadValueU32(endian);
 
             if (alignment != 0x1000 || unknown0C != 0)
             {
                 throw new FormatException();
             }
 
-            var unknownCount = input.ReadValueU32(endian);
-            var unknowns = new KeyValuePair<uint, uint>[unknownCount];
-            for (uint i = 0; i < unknownCount; i++)
+            var compressedBlockCount = input.ReadValueU32(endian);
+            var compressedBlocks = new CompressedBlockInfo[compressedBlockCount];
+            for (uint i = 0; i < compressedBlockCount; i++)
             {
-                var unknown00 = input.ReadValueU32(endian);
-                var unknown04 = input.ReadValueU32(endian);
-                unknowns[i] = new KeyValuePair<uint, uint>(unknown00, unknown04);
+                RawCompressedBlockInfo raw;
+                raw.CompressedSize = input.ReadValueU32(endian);
+                raw.UncompressedSize = input.ReadValueU32(endian);
+                compressedBlocks[i] = new CompressedBlockInfo(raw);
             }
 
             var entries = new List<EntryInfo>();
             while (input.Position + 20 <= input.Length)
             {
-                RawEntryInfo entryInfo;
-                entryInfo.NameHash = input.ReadValueU32(endian);
-                entryInfo.Offset = input.ReadValueU32(endian);
-                entryInfo.CompressedSize = input.ReadValueU32(endian);
-                entryInfo.UncompressedSize = input.ReadValueU32(endian);
-                entryInfo.UnknownIndex = input.ReadValueU8();
-                entryInfo.Unknown11 = input.ReadValueU8();
-                entryInfo.CompressionType = (CompressionType)input.ReadValueU8();
-                entryInfo.Unknown13 = input.ReadValueU8();
-                entries.Add(new EntryInfo(entryInfo));
+                RawEntryInfo raw;
+                raw.NameHash = input.ReadValueU32(endian);
+                raw.Offset = input.ReadValueU32(endian);
+                raw.CompressedSize = input.ReadValueU32(endian);
+                raw.UncompressedSize = input.ReadValueU32(endian);
+                raw.CompressedBlockIndex = input.ReadValueU8();
+                raw.Unknown11 = input.ReadValueU8();
+                raw.CompressionType = (CompressionType)input.ReadValueU8();
+                raw.Unknown13 = input.ReadValueU8();
+                entries.Add(new EntryInfo(raw));
             }
 
             this._Endian = endian;
             this._Alignment = alignment;
-            this._Unknowns.Clear();
-            this._Unknowns.AddRange(unknowns);
+            this._MaxCompressedBlockSize = maxCompressedBlockSize;
+            this._UncompressedBlockSize = uncompressedBlockSize;
+            this._CompressedBlocks.Clear();
+            this._CompressedBlocks.AddRange(compressedBlocks);
             this._Entries.Clear();
             this._Entries.AddRange(entries);
+        }
+
+        internal struct RawCompressedBlockInfo
+        {
+            public uint CompressedSize;
+            public uint UncompressedSize;
+        }
+
+        public struct CompressedBlockInfo
+        {
+            public readonly uint CompressedSize;
+            public readonly uint UncompressedSize;
+
+            internal CompressedBlockInfo(RawCompressedBlockInfo raw)
+            {
+                this.CompressedSize = raw.CompressedSize;
+                this.UncompressedSize = raw.UncompressedSize;
+            }
+
+            public CompressedBlockInfo(uint compressedSize, uint uncompressedSize)
+            {
+                this.CompressedSize = compressedSize;
+                this.UncompressedSize = uncompressedSize;
+            }
+
+            public bool IsValid
+            {
+                get
+                {
+                    return this.CompressedSize != uint.MaxValue &&
+                           this.UncompressedSize != uint.MaxValue;
+                }
+            }
+
+            public override string ToString()
+            {
+                return string.Format("{0:X} -> {1:X}", this.CompressedSize, this.UncompressedSize);
+            }
         }
 
         internal struct RawEntryInfo
@@ -133,7 +188,7 @@ namespace Gibbed.JustCause4.FileFormats
             public uint Offset;
             public uint CompressedSize;
             public uint UncompressedSize;
-            public byte UnknownIndex;
+            public byte CompressedBlockIndex;
             public byte Unknown11;
             public CompressionType CompressionType;
             public byte Unknown13;
@@ -145,7 +200,7 @@ namespace Gibbed.JustCause4.FileFormats
             public readonly uint Offset;
             public readonly uint CompressedSize;
             public readonly uint UncompressedSize;
-            public readonly byte UnknownIndex;
+            public readonly byte CompressedBlockIndex;
             public readonly byte Unknown11;
             public readonly CompressionType CompressionType;
             public readonly byte Unknown13;
@@ -156,7 +211,7 @@ namespace Gibbed.JustCause4.FileFormats
                 this.Offset = raw.Offset;
                 this.CompressedSize = raw.CompressedSize;
                 this.UncompressedSize = raw.UncompressedSize;
-                this.UnknownIndex = raw.UnknownIndex;
+                this.CompressedBlockIndex = raw.CompressedBlockIndex;
                 this.Unknown11 = raw.Unknown11;
                 this.CompressionType = raw.CompressionType;
                 this.Unknown13 = raw.Unknown13;
@@ -176,7 +231,7 @@ namespace Gibbed.JustCause4.FileFormats
                 this.Offset = offset;
                 this.CompressedSize = compressedSize;
                 this.UncompressedSize = uncompressedSize;
-                this.UnknownIndex = unknown10;
+                this.CompressedBlockIndex = unknown10;
                 this.Unknown11 = unknown11;
                 this.CompressionType = compressionType;
                 this.Unknown13 = unknown13;
@@ -190,7 +245,7 @@ namespace Gibbed.JustCause4.FileFormats
                     this.Offset,
                     this.CompressedSize,
                     this.UncompressedSize,
-                    this.UnknownIndex,
+                    this.CompressedBlockIndex,
                     this.Unknown11,
                     this.CompressionType,
                     this.Unknown13);

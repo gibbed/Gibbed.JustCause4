@@ -107,6 +107,9 @@ namespace Gibbed.JustCause4.Unpack
 
             var arcPath = Path.ChangeExtension(tabPath, ".arc");
 
+            var compressedBlockBytes = new byte[tab.MaxCompressedBlockSize];
+            var uncompressedBlockBytes = new byte[tab.UncompressedBlockSize];
+
             using (var input = File.OpenRead(arcPath))
             {
                 long current = 0;
@@ -128,7 +131,38 @@ namespace Gibbed.JustCause4.Unpack
                         var guess = new byte[32];
 
                         input.Position = entry.Offset;
-                        var read = input.Read(guess, 0, (int)Math.Min(guess.Length, entry.CompressedSize));
+
+                        int read;
+                        if (entry.CompressionType == CompressionType.None)
+                        {
+                            read = input.Read(guess, 0, (int)Math.Min(guess.Length, entry.CompressedSize));
+                        }
+                        else
+                        {
+                            var decompress = GetDecompress(entry.CompressionType);
+                            if (tab.CompressedBlocks[entry.CompressedBlockIndex].IsValid == false)
+                            {
+                                var compressedBytes = new byte[entry.CompressedSize];
+                                read = input.Read(compressedBytes, 0, (int)entry.CompressedSize);
+                                if (read != entry.CompressedSize)
+                                {
+                                    throw new EndOfStreamException();
+                                }
+                                var guessSize = Math.Min(32, (int)entry.UncompressedSize);
+                                read = decompress(compressedBytes, 0, (int)entry.CompressedSize, guess, 0, guessSize);
+                            }
+                            else
+                            {
+                                var compressedBlock = tab.CompressedBlocks[entry.CompressedBlockIndex];
+                                read = input.Read(compressedBlockBytes, 0, (int)compressedBlock.CompressedSize);
+                                if (read != compressedBlock.CompressedSize)
+                                {
+                                    throw new EndOfStreamException();
+                                }
+                                var guessSize = Math.Min(32, (int)compressedBlock.UncompressedSize);
+                                read = decompress(compressedBlockBytes, 0, (int)compressedBlock.CompressedSize, guess, 0, guessSize);
+                            }
+                        }
 
                         var extension = FileDetection.Detect(guess, read);
                         name = entry.NameHash.ToString("X8");
@@ -173,46 +207,108 @@ namespace Gibbed.JustCause4.Unpack
                     input.Position = entry.Offset;
                     using (var output = File.Create(entryPath))
                     {
-                        switch (entry.CompressionType)
+                        if (entry.CompressionType == CompressionType.None)
                         {
-                            case CompressionType.None:
+                            if (entry.CompressedSize != entry.UncompressedSize)
                             {
-                                if (entry.CompressedSize != entry.UncompressedSize)
+                                throw new InvalidOperationException();
+                            }
+
+                            output.WriteFromStream(input, entry.CompressedSize);
+                        }
+                        else
+                        {
+                            var decompress = GetDecompress(entry.CompressionType);
+
+                            if (tab.CompressedBlocks[entry.CompressedBlockIndex].IsValid == false)
+                            {
+                                if (entry.CompressedSize == entry.UncompressedSize)
+                                {
+                                    // TODO(gibbed): is this correct?
+                                    output.WriteFromStream(input, entry.CompressedSize);
+                                }
+                                else
+                                {
+                                    var compressedBytes = input.ReadBytes((int)entry.CompressedSize);
+                                    var uncompressedBytes = new byte[entry.UncompressedSize];
+                                    var result = decompress(
+                                        compressedBytes,
+                                        0,
+                                        compressedBytes.Length,
+                                        uncompressedBytes,
+                                        0,
+                                        uncompressedBytes.Length);
+                                    if (result != uncompressedBytes.Length)
+                                    {
+                                        throw new InvalidOperationException();
+                                    }
+                                    output.WriteBytes(uncompressedBytes);
+                                }
+                            }
+                            else
+                            {
+                                int compressedBlockIndex = entry.CompressedBlockIndex;
+                                long compressedSize = entry.CompressedSize;
+                                long uncompressedSize = 0;
+                                while (compressedSize > 0)
+                                {
+                                    var compressedBlock = tab.CompressedBlocks[compressedBlockIndex];
+
+                                    var read = input.Read(compressedBlockBytes, 0, (int)compressedBlock.CompressedSize);
+                                    if (read != compressedBlock.CompressedSize)
+                                    {
+                                        throw new EndOfStreamException();
+                                    }
+
+                                    var result = decompress(
+                                        compressedBlockBytes,
+                                        0,
+                                        (int)compressedBlock.CompressedSize,
+                                        uncompressedBlockBytes,
+                                        0,
+                                        (int)compressedBlock.UncompressedSize);
+                                    if (result != compressedBlock.UncompressedSize)
+                                    {
+                                        throw new InvalidOperationException();
+                                    }
+                                    output.Write(uncompressedBlockBytes, 0, (int)compressedBlock.UncompressedSize);
+
+                                    compressedSize -= compressedBlock.CompressedSize;
+                                    uncompressedSize += compressedBlock.UncompressedSize;
+                                    compressedBlockIndex++;
+                                }
+
+                                if (compressedSize != 0 ||
+                                    uncompressedSize != entry.UncompressedSize)
                                 {
                                     throw new InvalidOperationException();
                                 }
-
-                                output.WriteFromStream(input, entry.CompressedSize);
-                                break;
-                            }
-
-                            case CompressionType.Oodle:
-                            {
-                                var compressedBytes = input.ReadBytes((int)entry.CompressedSize);
-                                var uncompressedBytes = new byte[entry.UncompressedSize];
-                                var result = Oodle.Decompress
-                                    (compressedBytes,
-                                     0,
-                                     compressedBytes.Length,
-                                     uncompressedBytes,
-                                     0,
-                                     uncompressedBytes.Length);
-                                if (result != uncompressedBytes.Length)
-                                {
-                                    throw new InvalidOperationException();
-                                }
-                                output.WriteBytes(uncompressedBytes);
-                                break;
-                            }
-
-                            default:
-                            {
-                                throw new NotSupportedException();
                             }
                         }
                     }
                 }
             }
+        }
+
+        private delegate int DecompressDelegate(
+            byte[] inputBytes,
+            int inputOffset,
+            int inputCount,
+            byte[] outputBytes,
+            int outputOffset,
+            int outputCount);
+
+        private static DecompressDelegate GetDecompress(CompressionType compressionType)
+        {
+            switch (compressionType)
+            {
+                case CompressionType.Oodle:
+                {
+                    return Oodle.Decompress;
+                }
+            }
+
+            throw new NotSupportedException();
         }
     }
 }
