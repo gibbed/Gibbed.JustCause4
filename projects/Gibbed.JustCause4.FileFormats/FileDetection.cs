@@ -49,6 +49,7 @@ namespace Gibbed.JustCause4.FileFormats
                 { 0x43505452, new FileTypeInfo("runtime property container?", "rtpc") },
                 { 0x43524153, new FileTypeInfo("small archive", "sarc") },
                 { 0x57E0E057, new FileTypeInfo("animation", "ban") },
+                { 0x58545641, new FileTypeInfo("texture", "ddsc") },
             };
 
         private static readonly Dictionary<ulong, FileTypeInfo> _Simple8Lookup =
@@ -104,6 +105,13 @@ namespace Gibbed.JustCause4.FileFormats
 
             if (read >= 3)
             {
+                if ((guess[0] == 0x47 || guess[0] == 0x43) && // 'G'/'C'
+                    guess[1] == 0x46 && // 'F'
+                    guess[2] == 0x58) // 'X'
+                {
+                    return "gfx";
+                }
+
                 if (guess[0] == 1 &&
                     guess[1] == 4 &&
                     guess[2] == 0)
