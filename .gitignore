@@ -256,3 +256,4 @@ paket-files/
 
 ![Bb]in/projects
 [Bb]in/projects/*/files/test*
+[Bb]in/projects/*/files/*.lnk
