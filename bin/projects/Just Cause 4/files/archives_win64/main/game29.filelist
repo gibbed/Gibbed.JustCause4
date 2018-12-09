@@ -1,4 +1,4 @@
-; 88/213 (41%)
+; 95/213 (44%)
 models/weapons/wpn_020_shotgun/textures/wpn_020_shotgun_nrm.atx1
 models/weapons/wpn_021_shotgun/textures/wpn_021_shotgun_alpha_mpm.atx1
 models/weapons/wpn_021_shotgun/textures/wpn_021_shotgun_nrm.atx1
@@ -47,6 +47,7 @@ sound/fmod_banks/cha_base.fmod_bankc
 sound/fmod_banks/cha_civilian.fmod_bankc
 sound/fmod_banks/cha_footsteps.fmod_bankc
 sound/fmod_banks/cha_global_rico.fmod_bankc
+sound/fmod_banks/cine_garland_intro_start.fmod_bankc
 sound/fmod_banks/cine_intro_blizzard.fmod_bankc
 sound/fmod_banks/cine_intro_frontline.fmod_bankc
 sound/fmod_banks/cine_intro_gear.fmod_bankc
@@ -72,13 +73,19 @@ sound/fmod_banks/global_veh_land_bikes.fmod_bankc
 sound/fmod_banks/global_veh_sea.fmod_bankc
 sound/fmod_banks/just_kidding.fmod_bankc
 sound/fmod_banks/node_amb_central_military_jet_factory.fmod_bankc
+sound/fmod_banks/node_amb_drone_factory_ambience.fmod_bankc
 sound/fmod_banks/node_amb_grasslands_mine.fmod_bankc
+sound/fmod_banks/node_amb_peoples_city.fmod_bankc
 sound/fmod_banks/node_amb_radar_base.fmod_bankc
 sound/fmod_banks/node_amb_slum_bridge.fmod_bankc
 sound/fmod_banks/node_amb_wind_research_lab.fmod_bankc
 sound/fmod_banks/node_ambience.fmod_bankc
+sound/fmod_banks/node_blackhand_training_facility.fmod_bankc
+sound/fmod_banks/node_props_carnival_set.fmod_bankc
 sound/fmod_banks/obj_char_grapple_hook.fmod_bankc
 sound/fmod_banks/obj_fuel_tank.fmod_bankc
+sound/fmod_banks/obj_gondola_lift.fmod_bankc
+sound/fmod_banks/obj_javi_door.fmod_bankc
 sound/fmod_banks/obj_wind_turbines.fmod_bankc
 sound/fmod_banks/phy_destruction_science_dome.fmod_bankc
 sound/fmod_banks/phy_electric_explosions.fmod_bankc

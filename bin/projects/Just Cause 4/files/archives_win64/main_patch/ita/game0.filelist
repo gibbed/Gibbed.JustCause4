@@ -1,4 +1,34 @@
-; 5/364 (1%)
+; 35/364 (9%)
+sound/dialogue/eng/bark_mil_mgmale01_combat_quip_10.wavc
+sound/dialogue/eng/bark_mil_mgmale01_combat_quip_20.wavc
+sound/dialogue/eng/bark_mil_mgmale01_exclamation_danger_20.wavc
+sound/dialogue/eng/bark_mil_mgmale01_exclamation_danger_30.wavc
+sound/dialogue/eng/bark_mil_mgmale01_exclamation_suspicious_20.wavc
+sound/dialogue/eng/bark_mil_mgmale01_exclamation_suspicious_30.wavc
+sound/dialogue/eng/bark_mil_mgmale01_generic_impact_10.wavc
+sound/dialogue/eng/bark_mil_mgmale01_generic_scream_short_10.wavc
+sound/dialogue/eng/bark_mil_mgmale01_generic_shot_10.wavc
+sound/dialogue/eng/bark_mil_mgmale01_generic_shot_30.wavc
+sound/dialogue/eng/bark_mil_mgmale01_grapple_struggle_10.wavc
+sound/dialogue/eng/bark_mil_mgmale01_grapple_struggle_20.wavc
+sound/dialogue/eng/bark_mil_mgmale01_investigate_start_10.wavc
+sound/dialogue/eng/bark_mil_mgmale01_machinegunner_packup_10.wavc
+sound/dialogue/eng/bark_mil_mgmale01_machinegunner_packup_20.wavc
+sound/dialogue/eng/bark_mil_mgmale01_machinegunner_packup_30.wavc
+sound/dialogue/eng/bark_mil_mgmale01_search_found_10.wavc
+sound/dialogue/eng/bark_mil_mgmale01_search_found_20.wavc
+sound/dialogue/eng/bark_mil_mgmale01_sfx_death_10.wavc
+sound/dialogue/eng/bark_mil_mgmale01_sfx_death_20.wavc
+sound/dialogue/eng/bark_mil_mgmale01_sfx_death_30.wavc
+sound/dialogue/eng/bark_mil_snipermale01_combat_quip_40.wavc
+sound/dialogue/eng/bark_mil_snipermale01_exclamation_danger_10.wavc
+sound/dialogue/eng/bark_mil_snipermale01_exclamation_danger_20.wavc
+sound/dialogue/eng/bark_mil_snipermale01_generic_shot_10.wavc
+sound/dialogue/eng/bark_mil_snipermale01_generic_shot_30.wavc
+sound/dialogue/eng/bark_mil_snipermale01_react_grenade_10.wavc
+sound/dialogue/eng/bark_mil_snipermale01_sfx_death_10.wavc
+sound/dialogue/eng/bark_mil_snipermale01_sfx_death_30.wavc
+sound/dialogue/eng/bark_mil_snipermale01_sniper_throw_c_grenade_30.wavc
 sound/dialogue/eng/scene_intro_blizzard_dial_010_oscar.wavc
 sound/dialogue/eng/scene_intro_blizzard_dial_180_rico.wavc
 sound/dialogue/eng/scene_intro_blizzard_dial_190_rico.wavc

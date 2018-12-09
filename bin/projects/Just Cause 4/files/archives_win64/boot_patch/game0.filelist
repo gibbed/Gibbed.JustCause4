@@ -1,4 +1,4 @@
-; 83/95 (87%)
+; 88/95 (92%)
 ai/aisystem.aisystunec
 ai/worldsim.aisystunec
 asynchronous/asyncbrags.asynccc
@@ -70,8 +70,13 @@ ui/popups.gfx
 ui/popupsbacker.gfx
 ui/popupsfeats.gfx
 ui/popupsmisc.gfx
+ui/retooler.art.retractforce_strong.ddsc
+ui/retooler.art.selectivewire_oldest.ddsc
+ui/retooler.art.tethercount_1_tether.ddsc
+ui/retooler_backer.gfx
 ui/retooler_overview.gfx
 ui/retooler_overview_i1.ddsc
+ui/retooler_shared.gfx
 ui/root.gfx
 ui/shared_lib.gfx
 ui/supply_drop.art.supplydrop_cat_sport_vehicle.ddsc

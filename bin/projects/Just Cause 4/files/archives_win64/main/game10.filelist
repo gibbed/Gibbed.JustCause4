@@ -1,4 +1,20 @@
-; 18/904 (1%)
+; 34/904 (3%)
+locations/node/node_civilian_04/node_civilian_04_stadium_props.blo
+locations/node/node_civilian_04/node_civilian_04_stadium_props.blo_adf
+locations/node/node_civilian_04/node_civilian_04_stadium_props.fl
+locations/node/node_civilian_04/node_civilian_04_stadium_props.fl.mdic
+locations/node/node_civilian_04/node_civilian_04_stadium_props.nl
+locations/node/node_civilian_04/node_civilian_04_stadium_props.nl.mdic
+locations/node/node_civilian_04/node_civilian_04_stadium_props.pfx_breakablecompoundc
+locations/node/node_civilian_04/node_civilian_04_stadium_props.pfx_staticcompoundc
+locations/node/node_civilian_04/node_civilian_04_stadium_props.resourcebundle
+locations/node/node_civilian_04/node_civilian_04_stadium_ruins.blo
+locations/node/node_civilian_04/node_civilian_04_stadium_ruins.fl
+locations/node/node_civilian_04/node_civilian_04_stadium_ruins.fl.mdic
+locations/node/node_civilian_04/node_civilian_04_stadium_ruins.nl
+locations/node/node_civilian_04/node_civilian_04_stadium_ruins.nl.mdic
+locations/node/node_civilian_04/node_civilian_04_stadium_ruins.obc
+locations/node/node_civilian_04/node_civilian_04_stadium_ruins.pfx_staticcompoundc
 locations/node/node_civilian_04/node_civillian_04_water.bl
 locations/node/node_civilian_04/node_civillian_04_water.blo
 locations/node/node_factory_02/node_factory_02_roads.bl

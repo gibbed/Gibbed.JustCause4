@@ -1,4 +1,4 @@
-; 86/745 (11%)
+; 88/745 (11%)
 locations/secondary_locations/grasslands/sl_capital_city_airport/sl_capital_city_airport_roads_01.bl
 locations/secondary_locations/grasslands/sl_capital_city_airport/sl_capital_city_airport_roads_01.blo
 locations/secondary_locations/rainforest/additional_encounter_locations/rf_39x29_encounters.blo
@@ -63,6 +63,8 @@ locations/secondary_locations/rainforest/rf_north_flavour_08/rf_north_flavour_08
 locations/secondary_locations/rainforest/rf_north_flavour_08/rf_north_flavour_08.pfx_breakablecompoundc
 locations/secondary_locations/rainforest/rf_north_flavour_08/rf_north_flavour_08.pfx_staticcompoundc
 locations/secondary_locations/rainforest/rf_north_flavour_08/rf_north_flavour_08.resourcebundle
+locations/secondary_locations/rainforest/rf_north_flavour_11/rf_north_flavour_11.fl
+locations/secondary_locations/rainforest/rf_north_flavour_11/rf_north_flavour_11.fl.mdic
 locations/secondary_locations/rainforest/rf_north_flavour_11/rf_north_flavour_11_roads.bl
 locations/secondary_locations/rainforest/rf_north_flavour_11/rf_north_flavour_11_roads.blo
 locations/secondary_locations/rainforest/rf_north_flavour_12/rf_north_flavour_12.blo
