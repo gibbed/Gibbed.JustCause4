@@ -100,6 +100,7 @@ namespace RebuildFileLists
             var project = manager.ActiveProject;
 
             var hashes = manager.LoadFileLists();
+            GuessExtensions(hashes);
 
             var installPath = project.InstallPath;
             var listsPath = project.ListsPath;
@@ -222,12 +223,71 @@ namespace RebuildFileLists
                 }
             }
 
-            allNames.Sort();
-
             using (var output = File.Create(Path.Combine(listsPath, "files", "status.txt")))
             using (var writer = new StreamWriter(output))
             {
                 writer.WriteLine("{0}", breakdown);
+            }
+        }
+
+        private static void GuessExtensions(Gibbed.ProjectData.HashList<uint> hashes)
+        {
+            var extensionGroups = new[]
+            {
+                new[]
+                {
+                    ".ddsc",
+                    ".atx1", ".atx2", /*".atx3", ".atx4", ".atx5", ".atx6", ".atx7", ".atx8", ".atx9",*/
+                },
+                new[]
+                {
+                    ".ee", ".epe", ".epe_adf",
+                    ".bl", ".blo", ".blo_adf",
+                    ".fl", ".flo", ".flo_adf",
+                    ".nl", ".nlo", ".nlo_adf",
+                    ".resourcebundle",
+                },
+            };
+
+            var oldNames = hashes.GetStrings().ToArray();
+            foreach (var oldName in oldNames)
+            {
+                var oldExtension = Path.GetExtension(oldName);
+                if (string.IsNullOrEmpty(oldExtension) == true)
+                {
+                    continue;
+                }
+
+                foreach (var extensionGroup in extensionGroups)
+                {
+                    if (extensionGroup.Contains(oldExtension) == false)
+                    {
+                        continue;
+                    }
+
+                    foreach (var newExtension in extensionGroup)
+                    {
+                        if (newExtension == oldExtension)
+                        {
+                            continue;
+                        }
+
+                        var newName = oldName.Substring(oldName.Length - oldExtension.Length) + newExtension;
+                        var newHash = newName.HashJenkins();
+
+                        if (hashes.Contains(newHash) == true)
+                        {
+                            if (hashes[newHash] != newName)
+                            {
+                                throw new InvalidOperationException();
+                            }
+                        }
+                        else
+                        {
+                            hashes.Add(newHash, newName);
+                        }
+                    }
+                }
             }
         }
 
