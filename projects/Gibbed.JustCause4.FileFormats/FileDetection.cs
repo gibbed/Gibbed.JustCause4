@@ -31,34 +31,45 @@ namespace Gibbed.JustCause4.FileFormats
         {
             public readonly string Name;
             public readonly string Extension;
+            public readonly int[] ValidOffsets;
 
-            public FileTypeInfo(string name, string extension)
+            public FileTypeInfo(string name, string extension, params int[] validOffsets)
             {
                 this.Name = name;
                 this.Extension = extension;
+                this.ValidOffsets = validOffsets;
+            }
+
+            public bool IsValidOffset(int offset)
+            {
+                return this.ValidOffsets == null || Array.IndexOf(this.ValidOffsets, offset) >= 0;
             }
         }
 
-        private static readonly Dictionary<uint, FileTypeInfo> _Simple4Lookup =
-            new Dictionary<uint, FileTypeInfo>()
+        private static readonly Dictionary<uint, FileTypeInfo> _Simple4Lookup;
+        private static readonly Dictionary<ulong, FileTypeInfo> _Simple8Lookup;
+
+        static FileDetection()
+        {
+            _Simple4Lookup = new Dictionary<uint, FileTypeInfo>()
             {
-                { 0x20534444, new FileTypeInfo("texture", "dds") },
-                { 0x30474154, new FileTypeInfo("?", "tag0") },
+                { 0x20534444, new FileTypeInfo("D3D texture", "dds", 0) },
+                { 0x20564546, new FileTypeInfo("FMOD bank", "fmod_bankc", 8) },
+                { 0x30474154, new FileTypeInfo("Havok tagfile", "hkt", 4) },
                 { 0x35425346, new FileTypeInfo("audio", "fsb5") },
                 { 0x41444620, new FileTypeInfo("arbitrary data format", "adf") },
-                { 0x43505452, new FileTypeInfo("runtime property container?", "rtpc") },
-                { 0x43524153, new FileTypeInfo("small archive", "sarc") },
-                { 0x57E0E057, new FileTypeInfo("animation", "ban") },
-                { 0x58545641, new FileTypeInfo("texture", "ddsc") },
+                { 0x43505452, new FileTypeInfo("runtime property container?", "rtpc", 0) },
+                { 0x43524153, new FileTypeInfo("small archive", "sarc", 4) },
+                { 0x58545641, new FileTypeInfo("Avalanche texture", "ddsc", 0) },
+                { 0x694B4942, new FileTypeInfo("Bink movie", "bikc", 0) },
             };
 
-        private static readonly Dictionary<ulong, FileTypeInfo> _Simple8Lookup =
-            new Dictionary<ulong, FileTypeInfo>()
+            _Simple8Lookup = new Dictionary<ulong, FileTypeInfo>()
             {
-                { 0x000000300000000EUL, new FileTypeInfo("ai", "btc") },
                 { 0x444E425200000005UL, new FileTypeInfo("RBN", "rbn") },
                 { 0x4453425200000005UL, new FileTypeInfo("RBS", "rbs") },
             };
+        }
 
         public static string Detect(byte[] guess, int read)
         {
@@ -67,39 +78,25 @@ namespace Gibbed.JustCause4.FileFormats
                 return "null";
             }
 
-            if (read >= 4)
+            for (int offset = 0; offset + 4 <= read && offset < 20; offset += 4)
             {
-                var magic = BitConverter.ToUInt32(guess, 0);
-                if (_Simple4Lookup.ContainsKey(magic) == true)
+                var magic = BitConverter.ToUInt32(guess, offset);
+                FileTypeInfo fileTypeInfo;
+                if (_Simple4Lookup.TryGetValue(magic, out fileTypeInfo) == true &&
+                    fileTypeInfo.IsValidOffset(offset) == true)
                 {
-                    return _Simple4Lookup[magic].Extension;
+                    return fileTypeInfo.Extension;
                 }
             }
 
-            if (read >= 8)
-            {
-                var magic = BitConverter.ToUInt32(guess, 4);
-                if (_Simple4Lookup.ContainsKey(magic) == true)
-                {
-                    return _Simple4Lookup[magic].Extension;
-                }
-            }
-
-            if (read >= 16)
-            {
-                var magic = BitConverter.ToUInt32(guess, 12);
-                if (_Simple4Lookup.ContainsKey(magic) == true)
-                {
-                    return _Simple4Lookup[magic].Extension;
-                }
-            }
-
-            if (read >= 8)
+            for (int offset = 0; offset + 8 <= read && offset < 24; offset += 8)
             {
                 var magic = BitConverter.ToUInt64(guess, 0);
-                if (_Simple8Lookup.ContainsKey(magic) == true)
+                FileTypeInfo fileTypeInfo;
+                if (_Simple8Lookup.TryGetValue(magic, out fileTypeInfo) == true &&
+                    fileTypeInfo.IsValidOffset(offset) == true)
                 {
-                    return _Simple8Lookup[magic].Extension;
+                    return fileTypeInfo.Extension;
                 }
             }
 
