@@ -43,10 +43,12 @@ namespace Gibbed.JustCause4.FileFormats
             new Dictionary<uint, FileTypeInfo>()
             {
                 { 0x20534444, new FileTypeInfo("texture", "dds") },
+                { 0x30474154, new FileTypeInfo("?", "tag0") },
+                { 0x35425346, new FileTypeInfo("audio", "fsb5") },
                 { 0x41444620, new FileTypeInfo("arbitrary data format", "adf") },
                 { 0x43505452, new FileTypeInfo("runtime property container?", "rtpc") },
+                { 0x43524153, new FileTypeInfo("small archive", "sarc") },
                 { 0x57E0E057, new FileTypeInfo("animation", "ban") },
-                { 0x35425346, new FileTypeInfo("audio", "fsb5") },
             };
 
         private static readonly Dictionary<ulong, FileTypeInfo> _Simple8Lookup =
@@ -67,6 +69,15 @@ namespace Gibbed.JustCause4.FileFormats
             if (read >= 4)
             {
                 var magic = BitConverter.ToUInt32(guess, 0);
+                if (_Simple4Lookup.ContainsKey(magic) == true)
+                {
+                    return _Simple4Lookup[magic].Extension;
+                }
+            }
+
+            if (read >= 8)
+            {
+                var magic = BitConverter.ToUInt32(guess, 4);
                 if (_Simple4Lookup.ContainsKey(magic) == true)
                 {
                     return _Simple4Lookup[magic].Extension;

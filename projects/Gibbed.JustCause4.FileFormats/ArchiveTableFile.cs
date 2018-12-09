@@ -127,10 +127,14 @@ namespace Gibbed.JustCause4.FileFormats
                 raw.Offset = input.ReadValueU32(endian);
                 raw.CompressedSize = input.ReadValueU32(endian);
                 raw.UncompressedSize = input.ReadValueU32(endian);
-                raw.CompressedBlockIndex = input.ReadValueU8();
-                raw.Unknown11 = input.ReadValueU8();
+                raw.CompressedBlockIndex = input.ReadValueU16();
                 raw.CompressionType = (CompressionType)input.ReadValueU8();
-                raw.Unknown13 = input.ReadValueU8();
+                var compressionFlags = input.ReadValueU8();
+                if ((compressionFlags & ~1) != 0)
+                {
+                    throw new FormatException("unknown compression flags");
+                }
+                raw.CompressionFlags = (CompressionFlags)compressionFlags;
                 entries.Add(new EntryInfo(raw));
             }
 
@@ -167,15 +171,6 @@ namespace Gibbed.JustCause4.FileFormats
                 this.UncompressedSize = uncompressedSize;
             }
 
-            public bool IsValid
-            {
-                get
-                {
-                    return this.CompressedSize != uint.MaxValue &&
-                           this.UncompressedSize != uint.MaxValue;
-                }
-            }
-
             public override string ToString()
             {
                 return string.Format("{0:X} -> {1:X}", this.CompressedSize, this.UncompressedSize);
@@ -188,10 +183,9 @@ namespace Gibbed.JustCause4.FileFormats
             public uint Offset;
             public uint CompressedSize;
             public uint UncompressedSize;
-            public byte CompressedBlockIndex;
-            public byte Unknown11;
+            public ushort CompressedBlockIndex;
             public CompressionType CompressionType;
-            public byte Unknown13;
+            public CompressionFlags CompressionFlags;
         }
 
         public struct EntryInfo
@@ -200,10 +194,9 @@ namespace Gibbed.JustCause4.FileFormats
             public readonly uint Offset;
             public readonly uint CompressedSize;
             public readonly uint UncompressedSize;
-            public readonly byte CompressedBlockIndex;
-            public readonly byte Unknown11;
+            public readonly ushort CompressedBlockIndex;
             public readonly CompressionType CompressionType;
-            public readonly byte Unknown13;
+            public readonly CompressionFlags CompressionFlags;
 
             internal EntryInfo(RawEntryInfo raw)
             {
@@ -212,9 +205,8 @@ namespace Gibbed.JustCause4.FileFormats
                 this.CompressedSize = raw.CompressedSize;
                 this.UncompressedSize = raw.UncompressedSize;
                 this.CompressedBlockIndex = raw.CompressedBlockIndex;
-                this.Unknown11 = raw.Unknown11;
                 this.CompressionType = raw.CompressionType;
-                this.Unknown13 = raw.Unknown13;
+                this.CompressionFlags = raw.CompressionFlags;
             }
 
             public EntryInfo(
@@ -222,33 +214,30 @@ namespace Gibbed.JustCause4.FileFormats
                 uint offset,
                 uint compressedSize,
                 uint uncompressedSize,
-                byte unknown10,
-                byte unknown11,
+                ushort compressedBlockIndex,
                 CompressionType compressionType,
-                byte unknown13)
+                CompressionFlags compressionFlags)
             {
                 this.NameHash = nameHash;
                 this.Offset = offset;
                 this.CompressedSize = compressedSize;
                 this.UncompressedSize = uncompressedSize;
-                this.CompressedBlockIndex = unknown10;
-                this.Unknown11 = unknown11;
+                this.CompressedBlockIndex = compressedBlockIndex;
                 this.CompressionType = compressionType;
-                this.Unknown13 = unknown13;
+                this.CompressionFlags = compressionFlags;
             }
 
             public override string ToString()
             {
                 return string.Format(
-                    "{0:X8} @{1:X} {2:X}, {3:X} [{4:X} {5:X} {6} {7:X}]",
+                    "{0:X8} @{1:X} {2:X} -> {3:X} <{4} {5} {6}>",
                     this.NameHash,
                     this.Offset,
                     this.CompressedSize,
                     this.UncompressedSize,
                     this.CompressedBlockIndex,
-                    this.Unknown11,
                     this.CompressionType,
-                    this.Unknown13);
+                    this.CompressionFlags);
             }
         }
     }
