@@ -1,19 +1,27 @@
-; 95/213 (44%)
+; 105/213 (49%)
 models/weapons/wpn_020_shotgun/textures/wpn_020_shotgun_nrm.atx1
 models/weapons/wpn_021_shotgun/textures/wpn_021_shotgun_alpha_mpm.atx1
 models/weapons/wpn_021_shotgun/textures/wpn_021_shotgun_nrm.atx1
 models/weapons/wpn_030_sniper_rifle/textures/wpn_030_sniper_rifle_alpha_mpm.atx1
+models/weapons/wpn_030_sniper_rifle/textures/wpn_030_sniper_rifle_nrm.atx1
 models/weapons/wpn_031_sniper_rifle/textures/wpn_031_sniper_rifle_alpha_mpm.atx1
+models/weapons/wpn_031_sniper_rifle/textures/wpn_031_sniper_rifle_dif.atx1
 models/weapons/wpn_031_sniper_rifle/textures/wpn_031_sniper_rifle_nrm.atx1
 models/weapons/wpn_040_combat_rifle/textures/wpn_040_combat_rifle_alpha_mpm.atx1
 models/weapons/wpn_040_combat_rifle/textures/wpn_040_combat_rifle_nrm.atx1
 models/weapons/wpn_050_smg/textures/wpn_050_smg_alpha_mpm.atx1
 models/weapons/wpn_050_smg/textures/wpn_050_smg_nrm.atx1
+models/weapons/wpn_060_rpg/textures/wpn_060_rpg_alpha_mpm.atx1
+models/weapons/wpn_060_rpg/textures/wpn_060_rpg_nrm.atx1
 models/weapons/wpn_061_rpg/textures/wpn_061_rpg_alpha_mpm.atx1
 models/weapons/wpn_061_rpg/textures/wpn_061_rpg_nrm.atx1
 models/weapons/wpn_070_glauncher/textures/wpn_070_glauncher_alpha_mpm.atx1
 models/weapons/wpn_070_glauncher/textures/wpn_070_glauncher_dif.atx1
 models/weapons/wpn_070_glauncher/textures/wpn_070_glauncher_nrm.atx1
+models/weapons/wpn_071_mlauncher/textures/wpn071_mlauncher_mine_mpm.atx1
+models/weapons/wpn_071_mlauncher/textures/wpn071_mlauncher_mine_nrm.atx1
+models/weapons/wpn_071_mlauncher/textures/wpn071_mlauncher_mine_proximity_alpha_emissive.atx1
+models/weapons/wpn_071_mlauncher/textures/wpn071_mlauncher_mine_proximity_dif.atx1
 models/weapons/wpn_202_cannon/textures/rebel/wpn202_cannon_base_rebel_nrm.atx1
 models/weapons/wpn_202_cannon/textures/rebel/wpn202_cannon_body_rebel_dif.atx1
 models/weapons/wpn_202_cannon/textures/rebel/wpn202_cannon_body_rebel_mpm.atx1
@@ -51,6 +59,7 @@ sound/fmod_banks/cine_garland_intro_start.fmod_bankc
 sound/fmod_banks/cine_intro_blizzard.fmod_bankc
 sound/fmod_banks/cine_intro_frontline.fmod_bankc
 sound/fmod_banks/cine_intro_gear.fmod_bankc
+sound/fmod_banks/cine_javi_retract.fmod_bankc
 sound/fmod_banks/cine_sargento_intro_start.fmod_bankc
 sound/fmod_banks/eff_bullets.fmod_bankc
 sound/fmod_banks/eff_electricity_common.fmod_bankc
@@ -86,6 +95,7 @@ sound/fmod_banks/obj_char_grapple_hook.fmod_bankc
 sound/fmod_banks/obj_fuel_tank.fmod_bankc
 sound/fmod_banks/obj_gondola_lift.fmod_bankc
 sound/fmod_banks/obj_javi_door.fmod_bankc
+sound/fmod_banks/obj_sluss_door.fmod_bankc
 sound/fmod_banks/obj_wind_turbines.fmod_bankc
 sound/fmod_banks/phy_destruction_science_dome.fmod_bankc
 sound/fmod_banks/phy_electric_explosions.fmod_bankc

@@ -1,4 +1,4 @@
-; 88/95 (92%)
+; 95/95 (100%)
 ai/aisystem.aisystunec
 ai/worldsim.aisystunec
 asynchronous/asyncbrags.asynccc
@@ -31,6 +31,10 @@ text/master_rus.stringlookup
 text/master_spa.stringlookup
 text/master_szh.stringlookup
 text/master_tzh.stringlookup
+textures/color_curves/clut_alpine01.ddsc
+textures/color_curves/clut_desert01.ddsc
+textures/color_curves/clut_grasslands01.ddsc
+textures/color_curves/clut_rainforest01.ddsc
 textures/system/jet_cloak_normals.ddsc
 textures/system/jet_cloak_transition.ddsc
 textures/ui/load/24.ddsc
@@ -60,7 +64,9 @@ ui/front_end_pause_menu_i4.ddsc
 ui/hud_bottom_middle.gfx
 ui/hud_bottom_middle_i33.ddsc
 ui/hud_center.gfx
+ui/hud_objective.gfx
 ui/hud_poi.gfx
+ui/hud_preorder_wingsuit.gfx
 ui/load.gfx
 ui/overlay.gfx
 ui/pilot_select.gfx
@@ -68,6 +74,7 @@ ui/poi.art.javi.large.ddsc
 ui/poi.art.user.ddsc
 ui/popups.gfx
 ui/popupsbacker.gfx
+ui/popupscollectibles.gfx
 ui/popupsfeats.gfx
 ui/popupsmisc.gfx
 ui/retooler.art.retractforce_strong.ddsc

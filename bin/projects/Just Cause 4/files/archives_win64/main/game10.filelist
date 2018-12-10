@@ -1,4 +1,5 @@
-; 34/904 (3%)
+; 51/904 (5%)
+locations/node/node_civilian_04/node_civilian_04_stadium_props.bl
 locations/node/node_civilian_04/node_civilian_04_stadium_props.blo
 locations/node/node_civilian_04/node_civilian_04_stadium_props.blo_adf
 locations/node/node_civilian_04/node_civilian_04_stadium_props.fl
@@ -8,6 +9,7 @@ locations/node/node_civilian_04/node_civilian_04_stadium_props.nl.mdic
 locations/node/node_civilian_04/node_civilian_04_stadium_props.pfx_breakablecompoundc
 locations/node/node_civilian_04/node_civilian_04_stadium_props.pfx_staticcompoundc
 locations/node/node_civilian_04/node_civilian_04_stadium_props.resourcebundle
+locations/node/node_civilian_04/node_civilian_04_stadium_ruins.bl
 locations/node/node_civilian_04/node_civilian_04_stadium_ruins.blo
 locations/node/node_civilian_04/node_civilian_04_stadium_ruins.fl
 locations/node/node_civilian_04/node_civilian_04_stadium_ruins.fl.mdic
@@ -17,18 +19,33 @@ locations/node/node_civilian_04/node_civilian_04_stadium_ruins.obc
 locations/node/node_civilian_04/node_civilian_04_stadium_ruins.pfx_staticcompoundc
 locations/node/node_civilian_04/node_civillian_04_water.bl
 locations/node/node_civilian_04/node_civillian_04_water.blo
+locations/node/node_civilian_04/node_civillian_04_water.fl
+locations/node/node_civilian_04/node_civillian_04_water.nl
 locations/node/node_factory_02/node_factory_02_roads.bl
 locations/node/node_factory_02/node_factory_02_roads.blo
+locations/node/node_factory_02/node_factory_02_roads.fl
+locations/node/node_factory_02/node_factory_02_roads.nl
 locations/node/node_factory_04/node_factory_04_roads.bl
 locations/node/node_factory_04/node_factory_04_roads.blo
+locations/node/node_factory_04/node_factory_04_roads.fl
+locations/node/node_factory_04/node_factory_04_roads.nl
 locations/node/node_factory_05/node_factory_05_road_01.bl
 locations/node/node_factory_05/node_factory_05_road_01.blo
+locations/node/node_factory_05/node_factory_05_road_01.fl
+locations/node/node_factory_05/node_factory_05_road_01.nl
 locations/node/node_factory_07/node_factory_07_roads.bl
 locations/node/node_factory_07/node_factory_07_roads.blo
+locations/node/node_factory_07/node_factory_07_roads.fl
+locations/node/node_factory_07/node_factory_07_roads.nl
 locations/node/node_factory_08/node_factory_08_roads.bl
 locations/node/node_factory_08/node_factory_08_roads.blo
+locations/node/node_factory_08/node_factory_08_roads.fl
+locations/node/node_factory_08/node_factory_08_roads.nl
 locations/node/node_factory_09/node_factory_09_roads.bl
 locations/node/node_factory_09/node_factory_09_roads.blo
+locations/node/node_factory_09/node_factory_09_roads.fl
+locations/node/node_factory_09/node_factory_09_roads.nl
+locations/node/node_factory_10/node_factory_10_main_new.bl
 locations/node/node_factory_10/node_factory_10_main_new.blo
 locations/node/node_factory_10/node_factory_10_main_new.blo_adf
 locations/node/node_factory_10/node_factory_10_main_new.fl

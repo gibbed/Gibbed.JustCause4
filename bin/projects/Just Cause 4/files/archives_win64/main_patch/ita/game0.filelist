@@ -1,4 +1,4 @@
-; 35/364 (9%)
+; 40/364 (10%)
 sound/dialogue/eng/bark_mil_mgmale01_combat_quip_10.wavc
 sound/dialogue/eng/bark_mil_mgmale01_combat_quip_20.wavc
 sound/dialogue/eng/bark_mil_mgmale01_exclamation_danger_20.wavc
@@ -23,7 +23,12 @@ sound/dialogue/eng/bark_mil_mgmale01_sfx_death_30.wavc
 sound/dialogue/eng/bark_mil_snipermale01_combat_quip_40.wavc
 sound/dialogue/eng/bark_mil_snipermale01_exclamation_danger_10.wavc
 sound/dialogue/eng/bark_mil_snipermale01_exclamation_danger_20.wavc
+sound/dialogue/eng/bark_mil_snipermale01_generic_impact_20.wavc
+sound/dialogue/eng/bark_mil_snipermale01_generic_scream_short_10.wavc
+sound/dialogue/eng/bark_mil_snipermale01_generic_scream_short_20.wavc
+sound/dialogue/eng/bark_mil_snipermale01_generic_scream_short_30.wavc
 sound/dialogue/eng/bark_mil_snipermale01_generic_shot_10.wavc
+sound/dialogue/eng/bark_mil_snipermale01_generic_shot_20.wavc
 sound/dialogue/eng/bark_mil_snipermale01_generic_shot_30.wavc
 sound/dialogue/eng/bark_mil_snipermale01_react_grenade_10.wavc
 sound/dialogue/eng/bark_mil_snipermale01_sfx_death_10.wavc
