@@ -10,11 +10,21 @@ Like what I've done? **Consider supporting me on [Patreon](https://patreon.com/g
 
 *Experimental!*
 
-* Unpacker for `.tab`/`.arc` archive file pairs.
+* **Unpack**: Unpacker for `.tab`/`.arc` archive file pairs.
+* **LaunchWithDropzone**: Game launcher that will start Just Cause 4 with the correct arguments to use the `dropzone` directory and all available game data.
+
+    By default it will use English for voiceovers, you can override this to a different language.
+
+    `LaunchWithDropzone.exe eng|fre|ger|ita|spa|rus|pol|jap|bra|mex|ara|kor|tzh|szh`
+    
+    ie:
+    * `LaunchWithDropzone.exe ara`
+    * `LaunchWithDropzone.exe jap`
+    * `LaunchWithDropzone.exe szh`
 
 ## Instructions
 
-[You can download binaries of the latest release](https://github.com/gibbed/Gibbed.JustCause4/releases/latest) (not the source ZIP!).
+[You can download binaries for the latest release](https://github.com/gibbed/Gibbed.JustCause4/releases/latest) (not the source ZIP!).
 
 ## TODO
 
