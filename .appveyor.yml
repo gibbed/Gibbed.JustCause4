@@ -40,6 +40,7 @@ after_build:
   - git log . > git-log.txt
   - 7z a -r -tzip -mx=9 -x!bin/Test.exe -x!*/LICENSE.txt jc4-%APPVEYOR_BUILD_VERSION%.zip ./LICENSE.txt ./README.txt git-log.txt bin/*.exe bin/*.dll bin/projects
   - 7z a -r -tzip -mx=9 -x!bin/Test.exe -x!*/LICENSE.txt jc4-%APPVEYOR_BUILD_VERSION%-with-symbols.zip ./LICENSE.txt ./README.txt git-log.txt bin/*.exe bin/*.dll bin/*.pdb bin/projects
+  - 7z a -r -tzip -mx=9 launch_with_dropzone-%APPVEYOR_BUILD_VERSION%.zip ./bin/LaunchWithDropzone.exe
 
 artifacts:
   - path: '*-*.zip'
