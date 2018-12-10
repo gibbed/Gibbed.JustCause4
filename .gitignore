@@ -256,4 +256,6 @@ paket-files/
 
 ![Bb]in/projects
 [Bb]in/projects/*/files/test*
+[Bb]in/projects/*/files/dropzone*.filelist
 [Bb]in/projects/*/files/*.lnk
+/*.bat
