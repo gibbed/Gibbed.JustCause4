@@ -1,4 +1,4 @@
-; 1304/1477 (88%)
+; 1305/1477 (88%)
 ai/aicoversettings.aicoversettingsc
 ai/aisystem.aisystunec
 ai/aivision.aisystunec
@@ -333,6 +333,7 @@ textures/dummies/dummy_checker_alpha_dif.ddsc
 textures/dummies/dummy_dark_green_dif.ddsc
 textures/dummies/dummy_darkgrey.ddsc
 textures/dummies/dummy_decal_alpha_dif.ddsc
+textures/dummies/dummy_deprecated_dif.ddsc
 textures/dummies/dummy_detail_nrm.ddsc
 textures/dummies/dummy_dif.ddsc
 textures/dummies/dummy_emissive_mpm2.ddsc

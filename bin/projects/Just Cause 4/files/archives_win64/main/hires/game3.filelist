@@ -1,4 +1,4 @@
-; 1972/2028 (97%)
+; 2025/2028 (99%)
 models/environments/locale_global/wind_turbine_01/textures/wind_turbine_shell_01_nrm.atx2
 models/environments/locale_global/wooden_table_a/textures/wooden_table_a_01_dif.atx2
 models/environments/locale_global/wooden_table_a/textures/wooden_table_a_01_mpm.atx2
@@ -47,6 +47,9 @@ models/environments/locale_illapa/ill_office/textures/illapa_office_ceiling_ligh
 models/environments/locale_illapa/ill_office/textures/rug_01_dif.atx2
 models/environments/locale_illapa/ill_office/textures/rug_01_mpm.atx2
 models/environments/locale_illapa/ill_office/textures/rug_01_nrm.atx2
+models/environments/locale_illapa/ill_office_oscar_jet/textures/oscar_jet_chair_01_a_dif.atx2
+models/environments/locale_illapa/ill_office_oscar_jet/textures/oscar_jet_chair_01_a_mpm.atx2
+models/environments/locale_illapa/ill_office_oscar_jet/textures/oscar_jet_chair_01_a_nrm.atx2
 models/environments/locale_illapa/ill_office_oscar_jet/textures/oscar_jet_interior_trim_01_a_dif.atx2
 models/environments/locale_illapa/ill_office_oscar_jet/textures/oscar_jet_interior_trim_01_a_mpm.atx2
 models/environments/locale_illapa/ill_office_oscar_jet/textures/oscar_jet_interior_trim_01_a_nrm.atx2
@@ -112,10 +115,19 @@ models/environments/locale_industrial/ind_fou_b/textures/b_fence1_mask.atx2
 models/environments/locale_industrial/ind_fou_b/textures/b_slope_r_mask.atx2
 models/environments/locale_industrial/ind_fou_b/textures/b_str_01_mask.atx2
 models/environments/locale_industrial/ind_fou_b/textures/b_str_16_mask.atx2
+models/environments/locale_industrial/ind_interior_closet_a/textures/ind_interior_closet_console_dif.atx2
+models/environments/locale_industrial/ind_interior_closet_a/textures/ind_interior_closet_console_mpm.atx2
+models/environments/locale_industrial/ind_interior_closet_a/textures/ind_interior_closet_console_nrm.atx2
+models/environments/locale_industrial/ind_interior_closet_a/textures/ind_interior_closet_screen_fail_dif.atx2
+models/environments/locale_industrial/ind_interior_closet_a/textures/ind_interior_closet_screen_fail_ems.atx2
+models/environments/locale_industrial/ind_interior_closet_a/textures/ind_interior_closet_screen_pass_dif.atx2
+models/environments/locale_industrial/ind_interior_closet_a/textures/ind_interior_closet_screen_pass_ems.atx2
 models/environments/locale_industrial/ind_manufacturing/masks/ind_fac_a_bui_01_concrete.atx2
 models/environments/locale_industrial/ind_manufacturing/masks/ind_fac_a_bui_01_rust.atx2
+models/environments/locale_industrial/ind_manufacturing/masks/ind_fac_a_bui_02_rust_concrete.atx2
 models/environments/locale_industrial/ind_manufacturing/masks/ind_fac_a_bui_03_rust_a.atx2
 models/environments/locale_industrial/ind_manufacturing/masks/ind_fac_a_bui_04_rust.atx2
+models/environments/locale_industrial/ind_manufacturing/masks/ind_fac_bui_02_door_mask.atx2
 models/environments/locale_industrial/ind_mining/equipment/textures/conveyor_belt_01_dif.atx2
 models/environments/locale_industrial/ind_mining/equipment/textures/conveyor_belt_01_mpm.atx2
 models/environments/locale_industrial/ind_mining/equipment/textures/conveyor_belt_01_nrm.atx2
@@ -146,6 +158,7 @@ models/environments/locale_industrial/ind_mining/equipment/textures/sorter_01_02
 models/environments/locale_industrial/ind_pipe/textures/a_station_01_mask.atx2
 models/environments/locale_industrial/ind_pipe/textures/ind_pipe_01_mask.atx2
 models/environments/locale_industrial/ind_pipe/textures/ind_pipe_01_support_mask.atx2
+models/environments/locale_industrial/ind_pipe/textures/ind_pipe_intersect_01_mask.atx2
 models/environments/locale_industrial/ind_pipe/textures/ind_pipe_station_02_mask.atx2
 models/environments/locale_industrial/ind_pipe_b/textures/metal_pipe_b_details_01_a_clean_dif.atx2
 models/environments/locale_industrial/ind_pipe_b/textures/metal_pipe_b_details_01_a_clean_mpm.atx2
@@ -166,6 +179,9 @@ models/environments/locale_industrial/ind_resource/textures/lumberpile_small_01_
 models/environments/locale_industrial/ind_resource/textures/oil_rig_dif.atx2
 models/environments/locale_industrial/ind_resource/textures/oil_rig_mpm.atx2
 models/environments/locale_industrial/ind_resource/textures/oil_rig_nrm.atx2
+models/environments/locale_industrial/ind_resource/textures/saw_01_dif.atx2
+models/environments/locale_industrial/ind_resource/textures/saw_01_mpm.atx2
+models/environments/locale_industrial/ind_resource/textures/saw_01_nrm.atx2
 models/environments/locale_industrial/ind_silo_a/textures/silo_02_concrete_dif.atx2
 models/environments/locale_industrial/ind_silo_a/textures/silo_02_concrete_mpm.atx2
 models/environments/locale_industrial/ind_silo_a/textures/silo_02_concrete_nrm.atx2
@@ -548,6 +564,7 @@ models/environments/locale_road/road_elevated_b/substance/b_centre_arch_mask.atx
 models/environments/locale_road/road_elevated_b/substance/b_pillar_01_mask.atx2
 models/environments/locale_road/road_elevated_b/substance/b_pillar_base_mask.atx2
 models/environments/locale_road/road_elevated_b/substance/b_pillar_top_mask.atx2
+models/environments/locale_road/road_elevated_b/substance/b_rail_surface_24x32.atx2
 models/environments/locale_road/road_elevated_b/substance/b_ramp_24m_mask.atx2
 models/environments/locale_road/road_elevated_b/substance/b_straight_24x60_mask.atx2
 models/environments/locale_road/road_junction_a/textures/road_asphalt_base_02_dif.atx2
@@ -673,6 +690,7 @@ models/environments/locale_ruin/temple/textures/ruin_a_terrace_a_tier_02.atx2
 models/environments/locale_ruin/temple/textures/ruin_a_terrace_b_tier_03.atx2
 models/environments/locale_ruin/temple/textures/ruin_a_terrace_b_tier_04_mask_01.atx2
 models/environments/locale_ruin/temple/textures/ruin_a_terrace_b_tier_05_mask_01.atx2
+models/environments/locale_ruin/temple/textures/ruin_a_tower_a_base_01_mask_01.atx2
 models/environments/locale_ruin/temple/textures/ruin_a_tower_a_base_02_mask_01.atx2
 models/environments/locale_ruin/temple/textures/ruin_a_tower_a_mid_01_mask_01.atx2
 models/environments/locale_ruin/temple/textures/ruin_a_tower_a_mid_02_mask_01.atx2
@@ -731,6 +749,9 @@ models/environments/locale_science/sci_dome_a/textures/dome_atlas_nrm.atx2
 models/environments/locale_science/sci_dome_a/textures/dome_struts_dif.atx2
 models/environments/locale_science/sci_dome_a/textures/dome_struts_mpm.atx2
 models/environments/locale_science/sci_dome_a/textures/dome_struts_nrm.atx2
+models/environments/locale_science/sci_dome_a/textures/dome_vent_dif.atx2
+models/environments/locale_science/sci_dome_a/textures/dome_vent_mpm.atx2
+models/environments/locale_science/sci_dome_a/textures/dome_vent_nrm.atx2
 models/environments/locale_science/sci_dome_a/textures/metal_white_paint_dif.atx2
 models/environments/locale_science/sci_dome_a/textures/metal_white_paint_mpm.atx2
 models/environments/locale_science/sci_fou_a/textures/a_cor_90_01_mask.atx2
@@ -801,6 +822,7 @@ models/environments/locale_science/sci_tower_a/textures/transformer_tank_01_dif.
 models/environments/locale_science/sci_tower_a/textures/transformer_tank_01_mpm.atx2
 models/environments/locale_science/sci_tower_a/textures/transformer_tank_01_nrm.atx2
 models/environments/locale_science/sci_weather_machine_tornado_a/textures/sci_weather_main_mask.atx2
+models/environments/locale_science/sci_weather_machine_tornado_a/textures/sci_weather_rotor_mask.atx2
 models/environments/locale_science/textures/metal_panels_atlas_01_dif.atx2
 models/environments/locale_science/textures/metal_panels_atlas_01_mpm.atx2
 models/environments/locale_science/textures/metal_panels_atlas_01_nrm.atx2
@@ -910,6 +932,9 @@ models/environments/shared/textures/asphalt_floor_03_a_clean_alpha_mpm.atx2
 models/environments/shared/textures/asphalt_floor_03_a_clean_dif.atx2
 models/environments/shared/textures/asphalt_floor_03_a_clean_mpm.atx2
 models/environments/shared/textures/asphalt_floor_03_a_clean_nrm.atx2
+models/environments/shared/textures/asphalt_road_01_a_clean_dif.atx2
+models/environments/shared/textures/asphalt_road_01_a_clean_mpm.atx2
+models/environments/shared/textures/asphalt_road_01_a_clean_nrm.atx2
 models/environments/shared/textures/asphalt_road_01_b_clean_dif.atx2
 models/environments/shared/textures/asphalt_road_02_a_clean_dif.atx2
 models/environments/shared/textures/asphalt_road_02_a_clean_mpm.atx2
@@ -923,6 +948,10 @@ models/environments/shared/textures/barbed_wire_01_a_nrm.atx2
 models/environments/shared/textures/black_marble_wall_01_a_dif.atx2
 models/environments/shared/textures/black_marble_wall_01_a_mpm.atx2
 models/environments/shared/textures/black_marble_wall_01_a_nrm.atx2
+models/environments/shared/textures/brick_block_white_clean_dif.atx2
+models/environments/shared/textures/brick_block_white_clean_height.atx2
+models/environments/shared/textures/brick_block_white_clean_mpm.atx2
+models/environments/shared/textures/brick_block_white_clean_nrm.atx2
 models/environments/shared/textures/brick_floor_01_a_clean_dif.atx2
 models/environments/shared/textures/brick_floor_01_a_clean_mpm.atx2
 models/environments/shared/textures/brick_floor_01_a_clean_nrm.atx2
@@ -938,6 +967,10 @@ models/environments/shared/textures/bronze_01_a_nrm.atx2
 models/environments/shared/textures/cables_01_a_clean_dif.atx2
 models/environments/shared/textures/cables_01_a_clean_mpm.atx2
 models/environments/shared/textures/cables_01_a_clean_nrm.atx2
+models/environments/shared/textures/ceramic_tile_floor_dif.atx2
+models/environments/shared/textures/ceramic_tile_floor_height.atx2
+models/environments/shared/textures/ceramic_tile_floor_mpm.atx2
+models/environments/shared/textures/ceramic_tile_floor_nrm.atx2
 models/environments/shared/textures/chainlink_fence_dif_alpha.atx2
 models/environments/shared/textures/chainlink_fence_mpm.atx2
 models/environments/shared/textures/chainlink_fence_nrm.atx2
@@ -1002,6 +1035,7 @@ models/environments/shared/textures/commercial/casa_picante/civ_casa_picante_bil
 models/environments/shared/textures/commercial/casa_picante/civ_casa_picante_horizontal_window_sign_01_dif.atx2
 models/environments/shared/textures/commercial/casa_picante/civ_casa_picante_horizontal_window_sign_02_dif.atx2
 models/environments/shared/textures/commercial/casa_picante/civ_casa_picante_storefront_sign_01_dif.atx2
+models/environments/shared/textures/commercial/casa_picante/civ_casa_picante_vertical_window_sign_01_dif.atx2
 models/environments/shared/textures/commercial/casa_picante/civ_casa_picante_vertical_window_sign_02_dif.atx2
 models/environments/shared/textures/commercial/civ_billboard_mpm.atx2
 models/environments/shared/textures/commercial/civ_billboard_nrm.atx2
@@ -1053,16 +1087,24 @@ models/environments/shared/textures/commercial/general_business/civ_bodega_store
 models/environments/shared/textures/commercial/general_business/civ_bodega_storefront_sign_03_dif.atx2
 models/environments/shared/textures/commercial/general_business/civ_bodega_storefront_sign_04_dif.atx2
 models/environments/shared/textures/commercial/general_business/civ_car_repair_storefront_sign_01_dif.atx2
+models/environments/shared/textures/commercial/general_business/civ_car_repair_storefront_sign_02_dif.atx2
+models/environments/shared/textures/commercial/general_business/civ_car_repair_storefront_sign_03_dif.atx2
 models/environments/shared/textures/commercial/general_business/civ_car_repair_storefront_sign_05_dif.atx2
 models/environments/shared/textures/commercial/general_business/civ_car_repair_storefront_sign_06_dif.atx2
+models/environments/shared/textures/commercial/general_business/civ_gardening_storefront_sign_01_dif.atx2
 models/environments/shared/textures/commercial/general_business/civ_gardening_storefront_sign_02_dif.atx2
 models/environments/shared/textures/commercial/general_business/civ_gardening_storefront_sign_03_dif.atx2
 models/environments/shared/textures/commercial/general_business/civ_gardening_storefront_sign_04_dif.atx2
 models/environments/shared/textures/commercial/general_business/civ_hotel_storefront_sign_01_dif.atx2
+models/environments/shared/textures/commercial/general_business/civ_hotel_storefront_sign_02_dif.atx2
+models/environments/shared/textures/commercial/general_business/civ_hotel_storefront_sign_03_dif.atx2
+models/environments/shared/textures/commercial/general_business/civ_hotel_storefront_sign_04_dif.atx2
 models/environments/shared/textures/commercial/general_business/civ_hotel_storefront_sign_05_dif.atx2
+models/environments/shared/textures/commercial/general_business/civ_newsstand_storefront_sign_01_dif.atx2
 models/environments/shared/textures/commercial/general_business/civ_newsstand_storefront_sign_03_dif.atx2
 models/environments/shared/textures/commercial/general_business/civ_newsstand_storefront_sign_05_dif.atx2
 models/environments/shared/textures/commercial/general_business/civ_street_meat_storefront_sign_01_dif.atx2
+models/environments/shared/textures/commercial/general_business/civ_street_meat_storefront_sign_02_dif.atx2
 models/environments/shared/textures/commercial/general_business/civ_street_meat_storefront_sign_04_dif.atx2
 models/environments/shared/textures/commercial/general_business/civ_street_meat_storefront_sign_05_dif.atx2
 models/environments/shared/textures/commercial/general_business/civ_street_meat_storefront_sign_06_dif.atx2
@@ -1098,6 +1140,7 @@ models/environments/shared/textures/commercial/pinguino/civ_pinguino_window_sign
 models/environments/shared/textures/commercial/pinguino/civ_pinguino_window_sign_02_dif.atx2
 models/environments/shared/textures/commercial/pinguino/civ_pinguino_window_sign_03_dif.atx2
 models/environments/shared/textures/commercial/plumas/civ_plumas_billboard_01_dif.atx2
+models/environments/shared/textures/commercial/plumas/civ_plumas_billboard_02_dif.atx2
 models/environments/shared/textures/commercial/plumas/civ_plumas_billboard_03_dif.atx2
 models/environments/shared/textures/commercial/plumas/civ_plumas_billboard_04_dif.atx2
 models/environments/shared/textures/commercial/plumas/civ_plumas_billboard_05_dif.atx2
@@ -1120,6 +1163,7 @@ models/environments/shared/textures/commercial/sports_logos/magnificantes_billbo
 models/environments/shared/textures/commercial/tesoro/civ_tesoro_storefront_sign_01_dif.atx2
 models/environments/shared/textures/commercial/tesoro/civ_tesoro_vertical_window_sign_01_dif.atx2
 models/environments/shared/textures/commercial/tesoro/civ_tesoro_vertical_window_sign_02_dif.atx2
+models/environments/shared/textures/commercial/tesoro/civ_tesoro_vertical_window_sign_03_dif.atx2
 models/environments/shared/textures/commercial/tesoro/civ_tesoro_vertical_window_sign_04_dif.atx2
 models/environments/shared/textures/concrete_floor_01_a_clean_dif.atx2
 models/environments/shared/textures/concrete_floor_01_a_clean_mpm.atx2
@@ -1303,6 +1347,7 @@ models/environments/shared/textures/decals/concrete/generic_drip_01_a_mpm.atx2
 models/environments/shared/textures/decals/decal_arrow_military_alpha_dif.atx2
 models/environments/shared/textures/decals/decal_arrow_military_mpm.atx2
 models/environments/shared/textures/decals/decal_arrow_military_nrm.atx2
+models/environments/shared/textures/decals/decal_grupo_prospero_01_alpha_dif.atx2
 models/environments/shared/textures/decals/decal_h_letter_military_alpha_dif.atx2
 models/environments/shared/textures/decals/decal_h_letter_military_mpm.atx2
 models/environments/shared/textures/decals/decal_letter_a_entrance_service_alpha_dif.atx2
@@ -1317,6 +1362,7 @@ models/environments/shared/textures/decals/decal_letter_c_military_alpha_dif.atx
 models/environments/shared/textures/decals/decal_letter_c_military_mpm.atx2
 models/environments/shared/textures/decals/decal_letter_c_military_nrm.atx2
 models/environments/shared/textures/decals/decal_letter_d_military_alpha_dif.atx2
+models/environments/shared/textures/decals/decal_letter_d_military_mpm.atx2
 models/environments/shared/textures/decals/decal_letter_d_military_nrm.atx2
 models/environments/shared/textures/decals/decal_letter_e_military_alpha_dif.atx2
 models/environments/shared/textures/decals/decal_letter_e_military_mpm.atx2
@@ -1337,6 +1383,7 @@ models/environments/shared/textures/decals/decal_number_2_military_alpha_dif.atx
 models/environments/shared/textures/decals/decal_number_2_military_mpm.atx2
 models/environments/shared/textures/decals/decal_number_2_military_nrm.atx2
 models/environments/shared/textures/decals/decal_number_3_military_alpha_dif.atx2
+models/environments/shared/textures/decals/decal_number_3_military_mpm.atx2
 models/environments/shared/textures/decals/decal_number_3_military_nrm.atx2
 models/environments/shared/textures/decals/decal_number_4_military_alpha_dif.atx2
 models/environments/shared/textures/decals/decal_number_4_military_mpm.atx2
@@ -1381,6 +1428,7 @@ models/environments/shared/textures/decals/graffiti/graffiti_10_alpha_dif.atx2
 models/environments/shared/textures/decals/graffiti/graffiti_11_alpha_dif.atx2
 models/environments/shared/textures/decals/graffiti/graffiti_12_alpha_dif.atx2
 models/environments/shared/textures/decals/graffiti/graffiti_13_alpha_dif.atx2
+models/environments/shared/textures/decals/graffiti/graffiti_14_alpha_dif.atx2
 models/environments/shared/textures/decals/graffiti/graffiti_15_alpha_dif.atx2
 models/environments/shared/textures/decals/graffiti/graffiti_16_alpha_dif.atx2
 models/environments/shared/textures/decals/graffiti/graffiti_17_alpha_dif.atx2
@@ -1436,6 +1484,7 @@ models/environments/shared/textures/decals/graffiti/graffiti_aoc_05_alpha_dif.at
 models/environments/shared/textures/decals/graffiti/graffiti_aoc_13_alpha_dif.atx2
 models/environments/shared/textures/decals/graffiti/graffiti_aoc_20_alpha_dif.atx2
 models/environments/shared/textures/decals/graffiti/graffiti_aoc_25_alpha_dif.atx2
+models/environments/shared/textures/decals/graffiti/graffiti_aoc_27_alpha_dif.atx2
 models/environments/shared/textures/decals/graffiti/graffiti_aoc_31_alpha_dif.atx2
 models/environments/shared/textures/decals/graffiti/graffiti_brandon_sines_civ_02_alpha_dif.atx2
 models/environments/shared/textures/decals/graffiti/graffiti_brandon_sines_civ_02_alpha_mpm.atx2
@@ -1459,6 +1508,7 @@ models/environments/shared/textures/decals/logical_striping_a_01_mpm.atx2
 models/environments/shared/textures/decals/oils/iradecent_oil_a_01_alpha_dif.atx2
 models/environments/shared/textures/decals/oils/iradecent_oil_a_01_mpm.atx2
 models/environments/shared/textures/decals/paint_mask.atx2
+models/environments/shared/textures/decals/paint_stripe_set/airport_markers_a_01_alpha.atx2
 models/environments/shared/textures/decals/paint_stripe_set/paint_stripe_set_a_01_alpha_dif.atx2
 models/environments/shared/textures/decals/paint_stripe_set/paint_stripe_set_a_01_mpm.atx2
 models/environments/shared/textures/decals/paint_stripe_set/paint_stripe_set_a_01_nrm.atx2
@@ -1939,6 +1989,9 @@ models/environments/shared/textures/metal_panel_16_a_clean_dif.atx2
 models/environments/shared/textures/metal_panel_16_a_clean_mpm.atx2
 models/environments/shared/textures/metal_panel_16_a_clean_nrm.atx2
 models/environments/shared/textures/metal_panel_16_a_trim_dif.atx2
+models/environments/shared/textures/metal_panel_16_a_trim_dmg_02_dif.atx2
+models/environments/shared/textures/metal_panel_16_a_trim_dmg_02_mpm.atx2
+models/environments/shared/textures/metal_panel_16_a_trim_dmg_02_nrm.atx2
 models/environments/shared/textures/metal_panel_16_a_trim_dmg_dif.atx2
 models/environments/shared/textures/metal_panel_16_a_trim_dmg_mpm.atx2
 models/environments/shared/textures/metal_panel_16_a_trim_dmg_nrm.atx2

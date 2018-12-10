@@ -1,4 +1,4 @@
-; 40/364 (10%)
+; 46/364 (12%)
 sound/dialogue/eng/bark_mil_mgmale01_combat_quip_10.wavc
 sound/dialogue/eng/bark_mil_mgmale01_combat_quip_20.wavc
 sound/dialogue/eng/bark_mil_mgmale01_exclamation_danger_20.wavc
@@ -39,3 +39,9 @@ sound/dialogue/eng/scene_intro_blizzard_dial_180_rico.wavc
 sound/dialogue/eng/scene_intro_blizzard_dial_190_rico.wavc
 sound/dialogue/eng/scene_intro_blizzard_dial_210_rico.wavc
 sound/dialogue/eng/scene_intro_blizzard_dial_220_rico.wavc
+sound/dialogue/eng/scene_outro_end_dial_030_cesar.wavc
+sound/dialogue/eng/scene_outro_end_dial_070_sheldon.wavc
+sound/dialogue/eng/scene_outro_end_dial_080_sheldon.wavc
+sound/dialogue/eng/scene_outro_end_dial_090_sheldon.wavc
+sound/dialogue/eng/scene_outro_end_dial_120_rico.wavc
+sound/dialogue/eng/scene_outro_end_dial_170_sheldon.wavc

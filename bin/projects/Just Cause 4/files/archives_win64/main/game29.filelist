@@ -1,4 +1,4 @@
-; 105/213 (49%)
+; 111/213 (52%)
 models/weapons/wpn_020_shotgun/textures/wpn_020_shotgun_nrm.atx1
 models/weapons/wpn_021_shotgun/textures/wpn_021_shotgun_alpha_mpm.atx1
 models/weapons/wpn_021_shotgun/textures/wpn_021_shotgun_nrm.atx1
@@ -10,11 +10,17 @@ models/weapons/wpn_031_sniper_rifle/textures/wpn_031_sniper_rifle_nrm.atx1
 models/weapons/wpn_040_combat_rifle/textures/wpn_040_combat_rifle_alpha_mpm.atx1
 models/weapons/wpn_040_combat_rifle/textures/wpn_040_combat_rifle_nrm.atx1
 models/weapons/wpn_050_smg/textures/wpn_050_smg_alpha_mpm.atx1
+models/weapons/wpn_050_smg/textures/wpn_050_smg_dif.atx1
+models/weapons/wpn_050_smg/textures/wpn_050_smg_emissive.atx1
 models/weapons/wpn_050_smg/textures/wpn_050_smg_nrm.atx1
 models/weapons/wpn_060_rpg/textures/wpn_060_rpg_alpha_mpm.atx1
 models/weapons/wpn_060_rpg/textures/wpn_060_rpg_nrm.atx1
 models/weapons/wpn_061_rpg/textures/wpn_061_rpg_alpha_mpm.atx1
 models/weapons/wpn_061_rpg/textures/wpn_061_rpg_nrm.atx1
+models/weapons/wpn_063_rpg/textures/wpn_063_rpg_alpha_mpm.atx1
+models/weapons/wpn_063_rpg/textures/wpn_063_rpg_dif.atx1
+models/weapons/wpn_063_rpg/textures/wpn_063_rpg_emissive.atx1
+models/weapons/wpn_063_rpg/textures/wpn_063_rpg_nrm.atx1
 models/weapons/wpn_070_glauncher/textures/wpn_070_glauncher_alpha_mpm.atx1
 models/weapons/wpn_070_glauncher/textures/wpn_070_glauncher_dif.atx1
 models/weapons/wpn_070_glauncher/textures/wpn_070_glauncher_nrm.atx1

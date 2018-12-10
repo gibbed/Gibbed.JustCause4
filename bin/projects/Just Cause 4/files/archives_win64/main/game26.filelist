@@ -1,4 +1,4 @@
-; 1343/1360 (98%)
+; 1355/1360 (99%)
 models/environments/shared/textures/metal_painted_03_a_rust_nrm.atx1
 models/environments/shared/textures/metal_painted_03_a_white_dif.atx1
 models/environments/shared/textures/metal_painted_03_a_white_mpm.atx1
@@ -178,6 +178,9 @@ models/environments/shared/textures/metal_panel_16_a_clean_dif.atx1
 models/environments/shared/textures/metal_panel_16_a_clean_mpm.atx1
 models/environments/shared/textures/metal_panel_16_a_clean_nrm.atx1
 models/environments/shared/textures/metal_panel_16_a_trim_dif.atx1
+models/environments/shared/textures/metal_panel_16_a_trim_dmg_02_dif.atx1
+models/environments/shared/textures/metal_panel_16_a_trim_dmg_02_mpm.atx1
+models/environments/shared/textures/metal_panel_16_a_trim_dmg_02_nrm.atx1
 models/environments/shared/textures/metal_panel_16_a_trim_dmg_dif.atx1
 models/environments/shared/textures/metal_panel_16_a_trim_dmg_mpm.atx1
 models/environments/shared/textures/metal_panel_16_a_trim_dmg_nrm.atx1
@@ -385,6 +388,10 @@ models/environments/shared/textures/plastic_01_b_clean_dif.atx1
 models/environments/shared/textures/plastic_transmissive_01_a_alpha_clean_dif.atx1
 models/environments/shared/textures/plastic_transmissive_01_a_clean_mpm.atx1
 models/environments/shared/textures/plastic_transmissive_01_a_clean_nrm.atx1
+models/environments/shared/textures/plastic_white_01_dif.atx1
+models/environments/shared/textures/plastic_white_01_height.atx1
+models/environments/shared/textures/plastic_white_01_mpm.atx1
+models/environments/shared/textures/plastic_white_01_nrm.atx1
 models/environments/shared/textures/portuguese_tiles_01_alpha_mpm.atx1
 models/environments/shared/textures/portuguese_tiles_01_dif.atx1
 models/environments/shared/textures/portuguese_tiles_01_mpm.atx1
@@ -568,6 +575,10 @@ models/environments/shared/textures/tile_wall_01_a_clean_height.atx1
 models/environments/shared/textures/tile_wall_01_a_clean_mpm.atx1
 models/environments/shared/textures/tile_wall_01_a_clean_nrm.atx1
 models/environments/shared/textures/tile_wall_02_a_clean_dif.atx1
+models/environments/shared/textures/train_tracks_ground_01_dif.atx1
+models/environments/shared/textures/train_tracks_ground_01_height.atx1
+models/environments/shared/textures/train_tracks_ground_01_mpm.atx1
+models/environments/shared/textures/train_tracks_ground_01_nrm.atx1
 models/environments/shared/textures/travertin_marble_01_a_dif.atx1
 models/environments/shared/textures/travertin_marble_01_a_mpm.atx1
 models/environments/shared/textures/travertin_marble_01_a_nrm.atx1
@@ -621,6 +632,7 @@ models/environments/shared/textures/window_highrise_02_a_ems.atx1
 models/environments/shared/textures/window_highrise_02_a_mpm.atx1
 models/environments/shared/textures/window_highrise_02_a_nrm.atx1
 models/environments/shared/textures/window_highrise_02_b_dif.atx1
+models/environments/shared/textures/window_highrise_bui_a_alpha_dif.atx1
 models/environments/shared/textures/window_highrise_bui_a_dif.atx1
 models/environments/shared/textures/window_highrise_bui_a_height.atx1
 models/environments/shared/textures/window_highrise_bui_a_mpm.atx1

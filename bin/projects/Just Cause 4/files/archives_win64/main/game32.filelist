@@ -1,4 +1,4 @@
-; 1449/9117 (15%)
+; 1451/9117 (15%)
 sound/fmod_banks/v800_treaded_modernheavytank.fmod_bankc
 sound/fmod_banks/veh_gen_chassi_and_suspension.fmod_bankc
 sound/fmod_banks/veh_v000_car_atv.fmod_bankc
@@ -593,8 +593,10 @@ terrain/jc3/occluder/patch_09_49_38.streampatch
 terrain/jc3/occluder/patch_09_49_39.streampatch
 terrain/jc3/occluder/patch_09_50_38.streampatch
 terrain/jc3/occluder/patch_09_50_39.streampatch
+terrain/jc3/occluder/patch_09_50_40.streampatch
 terrain/jc3/occluder/patch_09_51_38.streampatch
 terrain/jc3/occluder/patch_09_51_39.streampatch
+terrain/jc3/occluder/patch_09_51_40.streampatch
 terrain/jc3/occluder/patch_09_52_38.streampatch
 terrain/jc3/occluder/patch_09_52_39.streampatch
 terrain/jc3/occluder/patch_09_52_40.streampatch
