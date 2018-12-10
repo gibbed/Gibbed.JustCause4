@@ -20,6 +20,7 @@
  *    distribution.
  */
 
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -28,6 +29,7 @@ namespace LaunchWithDropzone
 {
     internal class Program
     {
+        [STAThreadAttribute]
         private static void Main(string[] args)
         {
             if (args.Length > 1)
