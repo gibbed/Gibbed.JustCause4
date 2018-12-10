@@ -236,7 +236,7 @@ namespace RebuildFileLists
             {
                 new[]
                 {
-                    ".ddsc",
+                    //".ddsc", // Causes unnecessary collisions.
                     ".atx1", ".atx2", /*".atx3", ".atx4", ".atx5", ".atx6", ".atx7", ".atx8", ".atx9",*/
                 },
                 new[]
@@ -249,7 +249,7 @@ namespace RebuildFileLists
                 {
                     ".bl", ".blo", ".blo_adf", ".blo.mdic",
                     ".fl", ".flo", ".flo_adf", ".fl.mdic",
-                    ".nl", ".nlo", ".nl.mdic",
+                    ".nl", ".nl.mdic",
                     ".pfx_breakablecompoundc",
                     ".pfx_staticcompoundc",
                     ".obc",
@@ -304,9 +304,14 @@ namespace RebuildFileLists
 
                         if (hashes.Contains(newHash) == true)
                         {
-                            if (hashes[newHash] != newName)
+                            var existingName = hashes[newHash];
+                            if (existingName != newName)
                             {
-                                throw new InvalidOperationException();
+                                throw new InvalidOperationException(
+                                string.Format(
+                                    "hash collision ('{0}' vs '{1}')",
+                                    existingName,
+                                    newName));
                             }
                         }
                         else
