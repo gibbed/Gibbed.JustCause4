@@ -1,4 +1,4 @@
-; 1934/1938 (99%)
+; 1935/1938 (99%)
 models/environments/locale_illapa/textures/ill_miniature_mountain_01_dif.atx1
 models/environments/locale_illapa/textures/ill_miniature_mountain_01_nrm.atx1
 models/environments/locale_illapa/textures/ill_science_floor_a_clean_dif.atx1
@@ -659,6 +659,7 @@ models/environments/locale_road/tunnel_a/textures/road_tunnel_stoplight_01_nrm.a
 models/environments/locale_ruin/arches/ruin_a_arches_01.hrmeshc
 models/environments/locale_ruin/arches/textures/ruin_a_arches_01_mask_01.atx1
 models/environments/locale_ruin/fou_a/ruin_fou_a_island_03/ruin_fou_a_island_03_mask_01.atx1
+models/environments/locale_ruin/javi_ball/javi_ball_ball.hrmeshc
 models/environments/locale_ruin/javi_ball/javi_ball_trap_housing.hrmeshc
 models/environments/locale_ruin/javi_ball/javi_ball_trap_housing_structure.hrmeshc
 models/environments/locale_ruin/javi_ball/javi_ball_trap_selfstanding_housing_01.hrmeshc

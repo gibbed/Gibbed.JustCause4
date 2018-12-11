@@ -1,4 +1,4 @@
-; 2709/2740 (98%)
+; 2710/2740 (98%)
 models/environments/biome_generic/textures/vegetation_generic_debris_soil_001_mpm.atx1
 models/environments/biome_generic/textures/vegetation_generic_debris_soil_001_nrm.atx1
 models/environments/biome_generic/textures/vegetation_generic_debris_sticks_001_dif.atx1
@@ -2584,6 +2584,7 @@ models/environments/locale_harbor/buildings/har_a_bui_01_pipes.hrmeshc
 models/environments/locale_harbor/buildings/har_a_bui_02.hrmeshc
 models/environments/locale_harbor/buildings/har_a_bui_03.hrmeshc
 models/environments/locale_harbor/buildings/har_a_bui_04.hrmeshc
+models/environments/locale_harbor/buildings/har_a_skyway_str_01.hrmeshc
 models/environments/locale_harbor/buildings/har_a_warehouse_01.hrmeshc
 models/environments/locale_harbor/buildings/har_a_warehouse_02.hrmeshc
 models/environments/locale_harbor/buildings/har_a_warehouse_04.hrmeshc

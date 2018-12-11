@@ -1,4 +1,4 @@
-; 439/578 (75%)
+; 440/578 (76%)
 editor/entities/environments/locale_construction_a/const_buildings/textures/const_building_01_mask.atx2
 models/characters/animals/capybara/textures/capybara_dif.atx2
 models/characters/animals/capybara/textures/capybara_fur.atx2
@@ -16,6 +16,7 @@ models/characters/animals/cows/caracu_cattle01/textures/caracu_cattle01_cow_dif.
 models/characters/animals/cows/caracu_cattle01/textures/caracu_cattle01_cow_fur.atx2
 models/characters/animals/cows/caracu_cattle01/textures/caracu_cattle01_cow_mpm.atx2
 models/characters/animals/cows/caracu_cattle01/textures/caracu_cattle01_cow_nrm.atx2
+models/characters/animals/cows/holando-argentino_cattle01/textures/holando-argentino_cattle01_bull_nrm.atx2
 models/characters/animals/cows/indo-brazilian_cattle01/textures/indo-brazilian_cattle01_bull_fur.atx2
 models/characters/animals/cows/indo-brazilian_cattle01/textures/indo-brazilian_cattle01_bull_nrm.atx2
 models/characters/animals/cows/indo-brazilian_cattle01/textures/indo-brazilian_cattle01_cow_fur.atx2

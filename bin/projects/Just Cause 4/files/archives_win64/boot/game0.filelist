@@ -1,4 +1,4 @@
-; 1305/1477 (88%)
+; 1311/1477 (88%)
 ai/aicoversettings.aicoversettingsc
 ai/aisystem.aisystunec
 ai/aivision.aisystunec
@@ -207,8 +207,14 @@ terrain/jc3/horizonmap/horizon_24.ddsc
 terrain/jc3/horizonmap/horizon_25.ddsc
 terrain/jc3/horizonmap/horizon_26.ddsc
 terrain/jc3/horizonmap/horizon_27.ddsc
+terrain/jc3/horizonmap/horizon_28.ddsc
+terrain/jc3/horizonmap/horizon_29.ddsc
+terrain/jc3/horizonmap/horizon_3.ddsc
+terrain/jc3/horizonmap/horizon_30.ddsc
+terrain/jc3/horizonmap/horizon_31.ddsc
 terrain/jc3/horizonmap/horizon_4.ddsc
 terrain/jc3/horizonmap/horizon_5.ddsc
+terrain/jc3/horizonmap/horizon_6.ddsc
 terrain/jc3/horizonmap/horizon_7.ddsc
 terrain/jc3/horizonmap/horizon_8.ddsc
 terrain/jc3/horizonmap/horizon_9.ddsc

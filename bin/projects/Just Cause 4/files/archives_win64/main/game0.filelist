@@ -1,4 +1,4 @@
-; 236/983 (24%)
+; 239/983 (24%)
 ai/tiles/19_14.navmeshc
 ai/tiles/19_15.navmeshc
 ai/tiles/20_12.navmeshc
@@ -234,4 +234,7 @@ ai/tiles/30_41.navmeshc
 ai/tiles/30_42.navmeshc
 ai/tiles/30_43.navmeshc
 ai/tiles/30_44.navmeshc
+ai/tiles/30_45.navmeshc
+ai/tiles/30_46.navmeshc
 ai/tiles/30_47.navmeshc
+ai/tiles/30_48.navmeshc

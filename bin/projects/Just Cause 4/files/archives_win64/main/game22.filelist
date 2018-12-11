@@ -1,5 +1,4 @@
-; 3195/3284 (97%)
-locations/node/node_military_05/node_military_05_chaos_objects_large_01.resourcebund
+; 3205/3284 (97%)
 locations/secondary_locations/rainforest/town_tourist_rf/town_tourist_rf_02_main_structures.nl
 locations/secondary_locations/rainforest/town_tourist_rf/town_tourist_rf_02_main_structures.nl.mdic
 locations/secondary_locations/rainforest/town_tourist_rf/town_tourist_rf_02_main_structures.obc
@@ -901,6 +900,16 @@ locations/world_locations/bridges/rainforest_bridge_location_43x33_destructible.
 locations/world_locations/bridges/rainforest_bridge_location_43x33_destructible.blo_adf
 locations/world_locations/bridges/rainforest_bridge_location_43x33_destructible.fl
 locations/world_locations/bridges/rainforest_bridge_location_43x33_destructible.nl
+locations/world_locations/bridges/rainforest_bridge_location_44x26.bl
+locations/world_locations/bridges/rainforest_bridge_location_44x26.fl
+locations/world_locations/bridges/rainforest_bridge_location_44x26.fl.mdic
+locations/world_locations/bridges/rainforest_bridge_location_44x26.nl
+locations/world_locations/bridges/rainforest_bridge_location_44x26.pfx_staticcompoundc
+locations/world_locations/bridges/rainforest_bridge_location_45x26.bl
+locations/world_locations/bridges/rainforest_bridge_location_45x26.fl
+locations/world_locations/bridges/rainforest_bridge_location_45x26.fl.mdic
+locations/world_locations/bridges/rainforest_bridge_location_45x26.nl
+locations/world_locations/bridges/rainforest_bridge_location_45x26.pfx_staticcompoundc
 locations/world_locations/bridges/rainforest_bridge_location_45x28.bl
 locations/world_locations/bridges/rainforest_bridge_location_45x28.fl
 locations/world_locations/bridges/rainforest_bridge_location_45x28.fl.mdic
@@ -2612,6 +2621,7 @@ models/characters/animals/cows/caracu_cattle01/textures/caracu_cattle01_cow_mpm.
 models/characters/animals/cows/caracu_cattle01/textures/caracu_cattle01_cow_mpm.ddsc
 models/characters/animals/cows/caracu_cattle01/textures/caracu_cattle01_cow_nrm.atx1
 models/characters/animals/cows/caracu_cattle01/textures/caracu_cattle01_cow_nrm.ddsc
+models/characters/animals/cows/holando-argentino_cattle01/textures/holando-argentino_cattle01_bull_nrm.atx1
 models/characters/animals/cows/indo-brazilian_cattle01/textures/indo-brazilian_cattle01_bull_fur.atx1
 models/characters/animals/cows/indo-brazilian_cattle01/textures/indo-brazilian_cattle01_bull_fur.ddsc
 models/characters/animals/cows/indo-brazilian_cattle01/textures/indo-brazilian_cattle01_bull_nrm.atx1
