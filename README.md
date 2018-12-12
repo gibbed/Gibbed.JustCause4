@@ -11,6 +11,9 @@ Like what I've done? **Consider supporting me on [Patreon](https://patreon.com/g
 *Experimental!*
 
 * **Unpack**: Unpacker for `.tab`/`.arc` archive file pairs.
+
+    You will need to copy `oo2core_7_win64.dll` from your game directory to where `Gibbed.JustCause4.Unpack.exe` is for unpacking of most compressed files to work without crashing.
+
 * **LaunchWithDropzone**: Game launcher that will start Just Cause 4 with the correct arguments to use the `dropzone` directory and all available game data.
 
     By default it will use English for voiceovers, you can override this to a different language.
