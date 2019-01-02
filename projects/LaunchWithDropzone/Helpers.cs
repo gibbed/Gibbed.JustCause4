@@ -33,9 +33,9 @@ namespace LaunchWithDropzone
             MessageBox.Show(message, "Launch With Dropzone", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
-        public static string GetInstallPathFromOpenFileDialog()
+        public static string GetGamePathFromOpenFileDialog()
         {
-            var openFileDialog = new OpenFileDialog()
+            using (var openFileDialog = new OpenFileDialog()
             {
                 AutoUpgradeEnabled = true,
                 CheckFileExists = true,
@@ -44,13 +44,23 @@ namespace LaunchWithDropzone
                 Filter = "JustCause4.exe (JustCause4.exe)|JustCause4.exe",
                 RestoreDirectory = true,
                 Title = "Select JustCase4.exe...",
-            };
-            return openFileDialog.ShowDialog() != DialogResult.OK
-                       ? null
-                       : Path.GetDirectoryName(openFileDialog.FileName);
+            })
+            {
+                return openFileDialog.ShowDialog() != DialogResult.OK
+                           ? null
+                           : Path.GetFullPath(openFileDialog.FileName);
+            }
         }
 
-        public static string GetInstallPathFromRegistry()
+        public static string GetGamePathFromRegistry()
+        {
+            var installPath = GetGameLocationFromRegistry();
+            return string.IsNullOrEmpty(installPath) == false
+                       ? Path.Combine(installPath, "JustCause4.exe")
+                       : null;
+        }
+
+        public static string GetGameLocationFromRegistry()
         {
             RegistryKey baseKey = null;
             RegistryKey subKey = null;
@@ -83,7 +93,7 @@ namespace LaunchWithDropzone
             }
         }
 
-        public static void StartProcess(string path, string name, IEnumerable<string> arguments)
+        public static bool StartProcess(string path, string name, IEnumerable<string> arguments)
         {
             var processStartInfo = new ProcessStartInfo()
             {
@@ -92,7 +102,10 @@ namespace LaunchWithDropzone
                 Arguments = string.Join(" ", arguments),
                 UseShellExecute = true,
             };
-            Process.Start(processStartInfo);
+            using (var process = Process.Start(processStartInfo))
+            {
+                return process != null;
+            }
         }
     }
 }

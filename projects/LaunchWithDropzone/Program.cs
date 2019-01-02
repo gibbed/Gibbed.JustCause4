@@ -38,16 +38,34 @@ namespace LaunchWithDropzone
                 return;
             }
 
-            var installPath = Helpers.GetInstallPathFromRegistry();
-            if (string.IsNullOrEmpty(installPath) == true)
+            string exePath = null;
+            foreach (var candidatePath in GetInstallPaths())
             {
-                installPath = Helpers.GetInstallPathFromOpenFileDialog();
+                if (string.IsNullOrEmpty(candidatePath) == false &&
+                    File.Exists(candidatePath) == true)
+                {
+                    exePath = Path.GetFullPath(candidatePath);
+                    break;
+                }
             }
 
-            if (string.IsNullOrEmpty(installPath) == true)
+            if (string.IsNullOrEmpty(exePath) == true)
+            {
+                exePath = Helpers.GetGamePathFromOpenFileDialog();
+            }
+
+            if (string.IsNullOrEmpty(exePath) == true)
             {
                 return;
             }
+
+            if (File.Exists(exePath) == false)
+            {
+                Helpers.ShowError("Location for Just Cause 4 is invalid.");
+                return;
+            }
+
+            var installPath = Path.GetDirectoryName(exePath);
 
             string language = "eng";
             if (args.Length > 0)
@@ -96,10 +114,20 @@ namespace LaunchWithDropzone
                 sources.Add(new VFSArchive(Path.Combine("archives_win64", contentPackName, language), 1001));
             }
 
-            Helpers.StartProcess(
+            var wasStarted = Helpers.StartProcess(
                 installPath,
                 "JustCause4.exe",
                 sources.OrderBy(s => s.Priority).Select(s => s.GetCommandLine()));
+            if (wasStarted == false)
+            {
+                Helpers.ShowError("Failed to start Just Cause 4.");
+            }
+        }
+
+        private static IEnumerable<string> GetInstallPaths()
+        {
+            yield return "JustCause4.exe";
+            yield return Helpers.GetGamePathFromRegistry();
         }
 
         private abstract class VFSSource
